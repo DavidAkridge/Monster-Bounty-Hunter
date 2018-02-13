@@ -1,0 +1,1208 @@
+﻿Log file open, 02/13/18 14:15:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MonsterBountyHunter
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1200511342) SRandInit(-1200511342).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.165499
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.13-19.15.48:641][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.13-19.15.48:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.13-19.15.48:652][  0]LogInit: Computer: DESKTOP-M61G1JU
+[2018.02.13-19.15.48:652][  0]LogInit: User: David
+[2018.02.13-19.15.48:652][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.13-19.15.48:652][  0]LogInit: High frequency timer resolution =3.416973 MHz
+[2018.02.13-19.15.48:652][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.13-19.15.48:652][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.13-19.15.48:652][  0]LogMemory: Process Physical Memory: 274.68 MB used, 274.68 MB peak
+[2018.02.13-19.15.48:652][  0]LogMemory: Process Virtual Memory: 271.65 MB used, 271.65 MB peak
+[2018.02.13-19.15.48:652][  0]LogMemory: Physical Memory: 6361.05 MB used,  9971.20 MB free, 16332.25 MB total
+[2018.02.13-19.15.48:652][  0]LogMemory: Virtual Memory: 683.91 MB used,  9971.20 MB free, 134217728.00 MB total
+[2018.02.13-19.15.48:748][  0]LogInit: Using OS detected language (en-US).
+[2018.02.13-19.15.48:748][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.13-19.15.48:751][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.13-19.15.49:127][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.13-19.15.49:328][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.13-19.15.49:364][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.02.13-19.15.49:364][  0]LogD3D11RHI:       2016/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.13-19.15.49:366][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.13-19.15.49:366][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.13-19.15.49:366][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.13-19.15.49:373][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.13-19.15.49:373][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.13-19.15.49:373][  0]LogWindows: EnumDisplayDevices:
+[2018.02.13-19.15.49:373][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.02.13-19.15.49:373][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.13-19.15.49:373][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.13-19.15.49:373][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.13-19.15.49:373][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.13-19.15.49:373][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.02.13-19.15.49:373][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.13-19.15.49:373][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.13-19.15.49:373][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.02.13-19.15.49:397][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.13-19.15.49:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.13-19.15.49:457][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Intermediate/Shaders/WorkingDirectory/8256/).
+[2018.02.13-19.15.49:457][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/6E3A16F549514D74CB2CFFB796A04DAA/'.
+[2018.02.13-19.15.49:457][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.13-19.15.50:320][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.13-19.15.50:358][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.13-19.15.50:397][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.13-19.15.50:435][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.13-19.15.50:473][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.13-19.15.50:511][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.13-19.15.50:549][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.13-19.15.50:586][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.13-19.15.50:617][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.13-19.15.50:654][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.13-19.15.50:690][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.13-19.15.50:725][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.13-19.15.50:761][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.13-19.15.50:798][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.13-19.15.50:871][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.13-19.15.50:872][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.13-19.15.50:908][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.13-19.15.50:933][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.13-19.15.51:002][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.13-19.15.51:021][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.13-19.15.51:057][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.13-19.15.51:092][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.13-19.15.51:135][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.13-19.15.51:170][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.13-19.15.51:170][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.13-19.15.51:482][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.13-19.15.51:547][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.13-19.15.51:547][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.13-19.15.51:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.13-19.15.51:547][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.13-19.15.51:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.13-19.15.51:547][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.13-19.15.51:562][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.13-19.15.51:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.13-19.15.51:584][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.13-19.15.51:584][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.13-19.15.51:585][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.13-19.15.51:585][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.13-19.15.51:919][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.13-19.15.52:173][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.13-19.15.52:202][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.13-19.15.52:202][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.13-19.15.52:202][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.13-19.15.52:202][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.13-19.15.52:202][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.13-19.15.52:225][  0]LogNetVersion: MonsterBountyHunter , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1373798905)
+[2018.02.13-19.15.52:361][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.02.13-19.15.52:768][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.049107 seconds
+[2018.02.13-19.15.52:774][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.13-19.15.52:774][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.02.13-19.15.52:774][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.13-19.15.52:806][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.13-19.15.54:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.13-19.15.54:892][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.13-19.15.55:386][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.13-19.15.55:694][  0]SourceControl: Source control is disabled
+[2018.02.13-19.15.55:694][  0]SourceControl: Source control is disabled
+[2018.02.13-19.15.55:731][  0]SourceControl: Source control is disabled
+[2018.02.13-19.15.55:768][  0]SourceControl: Source control is disabled
+[2018.02.13-19.15.56:366][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.13-19.15.56:552][  0]LogOcInput: OculusInput pre-init called
+[2018.02.13-19.15.56:760][  0]LogEngine: Initializing Engine...
+[2018.02.13-19.15.56:762][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.13-19.15.56:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.13-19.15.56:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.13-19.15.57:073][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.13-19.15.57:084][  0]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.15.57:104][  0]LogInit: FAudioDevice initialized.
+[2018.02.13-19.15.57:178][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.13-19.15.57:189][  0]LogInit: Texture streaming: Enabled
+[2018.02.13-19.15.57:254][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.13-19.15.57:346][  0]LogInit: Transaction tracking system initialized
+[2018.02.13-19.15.57:565][  0]BlueprintLog: New page: Editor Load
+[2018.02.13-19.15.58:172][  0]LocalizationService: Localization service is disabled
+[2018.02.13-19.15.58:741][  0]LogConsoleResponse: Display: 
+[2018.02.13-19.15.58:882][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.13-19.15.58:882][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.13-19.15.58:882][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/' took 0.01s
+[2018.02.13-19.15.58:882][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.13-19.15.59:716][  0]SourceControl: Source control is disabled
+[2018.02.13-19.15.59:716][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.13-19.15.59:717][  0]LightingResults: New page: Lighting Build
+[2018.02.13-19.15.59:749][  0]MapCheck: New page: Map Check
+[2018.02.13-19.15.59:749][  0]LightingResults: New page: Lighting Build
+[2018.02.13-19.15.59:905][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.13-19.15.59:911][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.13-19.15.59:924][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.13-19.15.59:962][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.245ms to complete.
+[2018.02.13-19.15.59:962][  0]LogFileHelpers: Loading map 'Template_Default' took 0.245
+[2018.02.13-19.16.00:085][  0]LogCollectionManager: Loaded 0 collections in 0.000924 seconds
+[2018.02.13-19.16.00:150][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Collections/' took 0.01s
+[2018.02.13-19.16.00:151][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/Developers/David/Collections/' took 0.01s
+[2018.02.13-19.16.00:151][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/Collections/' took 0.01s
+[2018.02.13-19.16.00:151][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.13-19.16.00:159][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2363 classes and 519 folders.
+[2018.02.13-19.16.00:203][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.13-19.16.00:238][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.13-19.16.00:270][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.02.13-19.16.00:288][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.13-19.16.00:290][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.13-19.16.00:296][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.13-19.16.00:387][  0]LogRenderer: Reallocating scene render targets to support 1184x660 Format 10 NumSamples 1 (Frame:1).
+[2018.02.13-19.16.00:520][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.13-19.16.00:520][  0]LogLoad: (Engine Initialization) Total time: 13.49 seconds
+[2018.02.13-19.16.00:520][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.13-19.16.00:520][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.13-19.16.00:529][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.13-19.16.00:545][  0]LogAssetRegistry: Asset discovery search completed in 8.2062 seconds
+[2018.02.13-19.16.00:547][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.13-19.16.00:547][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.02.13-19.16.00:550][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.13-19.16.00:621][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.13-19.16.01:014][ 44]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.16.01:014][ 44]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.16.01:058][ 44]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.16.01:059][ 44]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.16.01:059][ 44]LogPackageName: SearchForPackageOnDisk took   0.045s, but failed to resolve S_ClothTarps_03.
+[2018.02.13-19.16.01:059][ 44]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2018.02.13-19.16.01:079][ 47]LogPackageName: SearchForPackageOnDisk took   0.045s, but failed to resolve S_ClothTarps_03.
+[2018.02.13-19.16.01:079][ 47]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2018.02.13-19.16.45:834][ 38]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.13-19.16.45:842][ 38]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Unreal/Epic Games/UE_4.18/FeaturePacks/StarterContent.upack)
+[2018.02.13-19.16.45:952][ 38]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.02.13-19.16.45:980][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.02.13-19.16.45:997][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.02.13-19.16.46:013][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.02.13-19.16.46:025][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.02.13-19.16.46:039][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.02.13-19.16.46:052][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.02.13-19.16.46:066][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.02.13-19.16.46:084][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.02.13-19.16.46:098][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.02.13-19.16.46:111][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.02.13-19.16.46:122][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.02.13-19.16.46:141][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.02.13-19.16.46:157][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.02.13-19.16.46:172][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.02.13-19.16.46:194][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.02.13-19.16.46:219][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.02.13-19.16.46:236][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.02.13-19.16.46:281][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Fire01.uasset"
+[2018.02.13-19.16.46:298][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.02.13-19.16.46:346][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.02.13-19.16.46:360][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.02.13-19.16.46:381][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Light01.uasset"
+[2018.02.13-19.16.46:394][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.02.13-19.16.46:408][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Light02.uasset"
+[2018.02.13-19.16.46:424][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.02.13-19.16.46:445][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.02.13-19.16.46:459][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.02.13-19.16.46:473][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.02.13-19.16.46:507][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.02.13-19.16.46:573][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.02.13-19.16.46:587][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.02.13-19.16.46:623][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.02.13-19.16.46:649][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.02.13-19.16.46:666][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Steam01.uasset"
+[2018.02.13-19.16.46:680][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.02.13-19.16.46:719][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.02.13-19.16.46:738][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.02.13-19.16.46:756][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.02.13-19.16.46:772][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.02.13-19.16.46:790][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.02.13-19.16.46:805][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.02.13-19.16.46:820][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.02.13-19.16.46:839][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.02.13-19.16.46:853][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.02.13-19.16.46:867][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.02.13-19.16.46:881][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.02.13-19.16.46:893][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.02.13-19.16.46:912][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.02.13-19.16.46:933][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.02.13-19.16.46:961][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.02.13-19.16.46:971][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.02.13-19.16.47:376][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.02.13-19.16.47:446][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.02.13-19.16.47:484][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.02.13-19.16.47:506][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.02.13-19.16.47:525][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.02.13-19.16.47:619][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Maps/StarterMap.umap"
+[2018.02.13-19.16.47:805][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.02.13-19.16.47:838][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.02.13-19.16.47:858][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.02.13-19.16.47:870][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.02.13-19.16.47:882][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.02.13-19.16.47:907][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.02.13-19.16.47:927][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.02.13-19.16.47:940][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.02.13-19.16.47:954][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.02.13-19.16.47:971][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.02.13-19.16.47:988][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.02.13-19.16.48:014][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.02.13-19.16.48:034][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.02.13-19.16.48:050][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.02.13-19.16.48:064][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.02.13-19.16.48:082][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.02.13-19.16.48:098][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.02.13-19.16.48:125][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.02.13-19.16.48:142][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.02.13-19.16.48:158][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.02.13-19.16.48:172][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.02.13-19.16.48:197][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.02.13-19.16.48:211][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.02.13-19.16.48:224][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.02.13-19.16.48:235][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.02.13-19.16.48:260][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.02.13-19.16.48:283][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.02.13-19.16.48:295][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.02.13-19.16.48:307][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.02.13-19.16.48:336][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.02.13-19.16.48:350][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.02.13-19.16.48:368][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.02.13-19.16.48:383][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.02.13-19.16.48:404][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.02.13-19.16.48:429][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.02.13-19.16.48:440][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.02.13-19.16.48:458][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.02.13-19.16.48:480][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.02.13-19.16.48:497][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.02.13-19.16.48:511][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.02.13-19.16.48:537][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.02.13-19.16.48:560][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.02.13-19.16.48:578][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.02.13-19.16.48:598][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.02.13-19.16.48:616][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.02.13-19.16.48:636][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.02.13-19.16.48:650][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.02.13-19.16.48:663][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.02.13-19.16.48:681][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.02.13-19.16.48:704][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.02.13-19.16.48:721][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.02.13-19.16.48:737][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.02.13-19.16.48:749][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.02.13-19.16.48:769][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.02.13-19.16.48:786][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.02.13-19.16.48:802][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.02.13-19.16.48:819][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.02.13-19.16.48:838][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.02.13-19.16.48:857][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.02.13-19.16.48:872][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.02.13-19.16.48:901][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.02.13-19.16.49:062][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.02.13-19.16.49:226][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.02.13-19.16.49:251][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.02.13-19.16.49:268][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.02.13-19.16.49:289][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Door.uasset"
+[2018.02.13-19.16.49:307][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.02.13-19.16.49:333][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.02.13-19.16.49:353][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.02.13-19.16.49:383][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.02.13-19.16.49:413][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.02.13-19.16.49:426][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.02.13-19.16.49:443][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.02.13-19.16.49:464][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.02.13-19.16.49:472][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.02.13-19.16.49:501][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.02.13-19.16.49:520][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.02.13-19.16.49:576][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.02.13-19.16.49:591][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.02.13-19.16.49:610][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.02.13-19.16.49:627][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.02.13-19.16.49:643][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.02.13-19.16.49:652][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.02.13-19.16.49:678][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.02.13-19.16.49:717][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.02.13-19.16.49:735][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.02.13-19.16.49:748][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.02.13-19.16.49:767][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.02.13-19.16.49:775][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.02.13-19.16.49:793][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.02.13-19.16.49:801][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.02.13-19.16.49:810][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.02.13-19.16.49:859][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.02.13-19.16.49:872][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.02.13-19.16.49:885][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.02.13-19.16.49:899][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.02.13-19.16.49:912][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.02.13-19.16.49:928][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.02.13-19.16.49:947][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.02.13-19.16.49:959][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.02.13-19.16.49:979][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.02.13-19.16.49:994][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.02.13-19.16.50:007][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.02.13-19.16.50:020][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.02.13-19.16.50:034][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.02.13-19.16.50:048][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.02.13-19.16.50:061][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.02.13-19.16.50:073][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.02.13-19.16.50:091][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.02.13-19.16.50:107][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.02.13-19.16.50:174][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.02.13-19.16.50:230][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.02.13-19.16.50:303][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.02.13-19.16.50:642][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.02.13-19.16.50:719][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.02.13-19.16.50:795][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.02.13-19.16.50:878][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.02.13-19.16.50:977][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.02.13-19.16.51:072][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.02.13-19.16.51:150][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.02.13-19.16.51:207][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.02.13-19.16.51:261][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.02.13-19.16.51:352][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.02.13-19.16.51:385][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.02.13-19.16.51:406][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.02.13-19.16.51:424][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.02.13-19.16.51:438][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.02.13-19.16.51:452][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.02.13-19.16.51:469][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.02.13-19.16.51:509][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.02.13-19.16.51:525][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.02.13-19.16.51:614][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.02.13-19.16.51:648][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.02.13-19.16.51:749][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.02.13-19.16.51:910][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.02.13-19.16.52:182][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.02.13-19.16.52:278][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.02.13-19.16.52:343][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.02.13-19.16.52:416][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.02.13-19.16.52:504][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.02.13-19.16.52:569][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.02.13-19.16.52:617][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.02.13-19.16.52:699][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.02.13-19.16.52:765][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.02.13-19.16.52:836][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.02.13-19.16.52:881][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.02.13-19.16.52:931][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.02.13-19.16.52:944][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.02.13-19.16.52:971][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.02.13-19.16.53:002][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.02.13-19.16.53:025][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.02.13-19.16.53:307][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.02.13-19.16.53:487][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.02.13-19.16.53:507][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.02.13-19.16.53:524][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.02.13-19.16.53:546][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.02.13-19.16.53:569][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.02.13-19.16.53:579][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.02.13-19.16.53:661][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.02.13-19.16.53:769][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.02.13-19.16.53:881][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.02.13-19.16.53:941][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.02.13-19.16.54:062][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.02.13-19.16.54:120][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.02.13-19.16.54:150][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.02.13-19.16.54:176][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.02.13-19.16.54:251][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.02.13-19.16.54:334][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.02.13-19.16.54:424][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.02.13-19.16.54:542][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.02.13-19.16.54:697][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.02.13-19.16.54:884][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.02.13-19.16.54:954][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.02.13-19.16.55:006][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.02.13-19.16.55:052][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.02.13-19.16.55:117][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.02.13-19.16.55:218][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.02.13-19.16.55:261][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.02.13-19.16.55:365][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.02.13-19.16.55:426][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.02.13-19.16.55:490][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.02.13-19.16.55:567][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.02.13-19.16.55:636][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.02.13-19.16.55:741][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.02.13-19.16.55:824][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.02.13-19.16.55:921][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.02.13-19.16.55:996][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.02.13-19.16.56:514][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.02.13-19.16.56:540][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.02.13-19.16.56:571][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.02.13-19.16.56:629][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.02.13-19.16.56:657][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.02.13-19.16.56:678][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.02.13-19.16.56:702][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.02.13-19.16.56:756][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.02.13-19.16.56:800][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.02.13-19.16.56:814][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.02.13-19.16.56:829][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.02.13-19.16.56:847][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.02.13-19.16.56:875][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.02.13-19.16.56:903][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.02.13-19.16.56:941][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.02.13-19.16.56:970][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.02.13-19.16.56:996][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.02.13-19.16.57:038][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.02.13-19.16.57:082][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.02.13-19.16.57:125][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.02.13-19.16.57:359][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.02.13-19.16.57:521][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.02.13-19.16.57:635][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.02.13-19.16.57:774][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.02.13-19.16.57:856][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.02.13-19.16.57:921][ 38]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.02.13-19.16.58:074][ 38]LogSavePackage: Save=12.98ms
+[2018.02.13-19.16.58:074][ 38]LogSavePackage: Moving '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Floor_400x4001199FA9E410B4CF6A1B25E88C2C7B08D.tmp' to '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.02.13-19.16.58:078][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.02.13-19.18.34:134][881]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/InfinityBladeGrassLands/Maps/SelfMadeInfinity.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.13-19.18.34:143][881]LightingResults: New page: Lighting Build
+[2018.02.13-19.18.34:144][881]LoadErrors: New page: Loading map: SelfMadeInfinity.umap
+[2018.02.13-19.18.34:146][881]MapCheck: New page: Map Check
+[2018.02.13-19.18.34:146][881]LightingResults: New page: Lighting Build
+[2018.02.13-19.18.35:328][881]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.13-19.18.35:333][881]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.18.35:343][881]LogMaterial: Warning: Material /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon.M_Plains_Castle_Demon needed to have new flag set bUsedWithStaticLighting !
+[2018.02.13-19.18.35:346][881]LogMaterial: Missing cached shader map for material M_Plains_Castle_Demon, compiling. 
+[2018.02.13-19.18.35:403][881]MapCheck: Warning: M_Plains_Castle_Demon Material /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon.M_Plains_Castle_Demon was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.02.13-19.18.35:414][881]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.13-19.18.35:451][881]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.13-19.18.35:508][881]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 56.513ms to complete.
+[2018.02.13-19.18.35:511][881]LogFileHelpers: Loading map 'SelfMadeInfinity' took 1.377
+[2018.02.13-19.18.39:141][219]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:141][219]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:194][219]LogPackageName: SearchForPackageOnDisk took   0.052s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:194][219]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.02.13-19.18.39:202][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:202][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:261][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:262][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:262][220]LogPackageName: SearchForPackageOnDisk took   0.060s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:262][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.02.13-19.18.39:262][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:262][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:325][220]LogPackageName: SearchForPackageOnDisk took   0.054s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:325][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.02.13-19.18.39:325][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:325][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:325][220]LogPackageName: SearchForPackageOnDisk took   0.063s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:325][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.02.13-19.18.39:325][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:325][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:393][220]LogPackageName: SearchForPackageOnDisk took   0.060s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:393][220]LogPackageName: SearchForPackageOnDisk took   0.067s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:393][220]LogPackageName: SearchForPackageOnDisk took   0.064s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:393][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:463][220]LogPackageName: SearchForPackageOnDisk took   0.070s, but failed to resolve Fire_Fortress.
+[2018.02.13-19.18.39:463][220]LogPackageName: SearchForPackageOnDisk took   0.070s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.39:463][220]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.02.13-19.18.39:464][220]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.02.13-19.18.39:464][220]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:464][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:554][220]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:554][220]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:554][220]LogPackageName: SearchForPackageOnDisk took   0.090s, but failed to resolve Fire_Fortress.
+[2018.02.13-19.18.39:554][220]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.02.13-19.18.39:563][221]LogPackageName: SearchForPackageOnDisk took   0.090s, but failed to resolve Fire_Fortress.
+[2018.02.13-19.18.39:563][221]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.02.13-19.18.39:563][221]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.39:563][221]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.39:908][260]LogPackageName: SearchForPackageOnDisk took   0.351s, but failed to resolve Fire_Fortress.
+[2018.02.13-19.18.39:908][260]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.02.13-19.18.40:023][273]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.13-19.18.40:604][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.40:604][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.40:656][273]LogPackageName: SearchForPackageOnDisk took   0.052s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.40:656][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.02.13-19.18.40:657][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.40:657][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.40:737][273]LogPackageName: SearchForPackageOnDisk took   0.081s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.40:737][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_MelancholicTroll01" could not be resolved.
+[2018.02.13-19.18.40:738][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.40:738][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.40:795][273]LogPackageName: SearchForPackageOnDisk took   0.057s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.40:795][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.02.13-19.18.40:795][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.40:795][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.40:974][273]LogPackageName: SearchForPackageOnDisk took   0.179s, but failed to resolve Env_Ice_Rocky.
+[2018.02.13-19.18.40:974][273]LogPackageName: Warning: String asset reference "Env_Ice_Rocky.Mesh.Env_Ice_NordHeed01" could not be resolved.
+[2018.02.13-19.18.40:975][273]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.40:975][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.41:028][273]LogPackageName: SearchForPackageOnDisk took   0.053s, but failed to resolve Fire_Fortress.
+[2018.02.13-19.18.41:028][273]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.02.13-19.18.41:028][273]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.41:028][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.41:203][273]LogPackageName: SearchForPackageOnDisk took   0.175s, but failed to resolve Fire_Fortress.
+[2018.02.13-19.18.41:203][273]LogPackageName: Warning: String asset reference "Fire_Fortress.SM.SM_Fire_Furnace_01" could not be resolved.
+[2018.02.13-19.18.41:225][273]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.02.13-19.18.41:225][273]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2018.02.13-19.18.41:280][273]LogPackageName: SearchForPackageOnDisk took   0.055s, but failed to resolve S_ClothTarps_03.
+[2018.02.13-19.18.41:280][273]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
+[2018.02.13-19.18.41:416][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.13-19.18.41:416][273]PIE: New page: PIE session: SelfMadeInfinity (Feb 13, 2018, 9:18:41 AM)
+[2018.02.13-19.18.41:416][273]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity
+[2018.02.13-19.18.41:424][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008002s)
+[2018.02.13-19.18.41:425][273]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.18.41:425][273]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2018.02.13-19.18.41:425][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity.SelfMadeInfinity to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity (0.009195s)
+[2018.02.13-19.18.41:441][273]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.18.41:448][273]LogInit: FAudioDevice initialized.
+[2018.02.13-19.18.41:491][273]LogLoad: Game class is 'GameModeBase'
+[2018.02.13-19.18.41:494][273]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.02.13-14.18.41
+[2018.02.13-19.18.41:494][273]LogWorld: Bringing up level for play took: 0.001958
+[2018.02.13-19.18.41:525][273]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.02.13-19.18.41:526][273]PIE: Play in editor start time for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity 0.992
+[2018.02.13-19.18.55:741][832]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.13-19.18.55:798][834]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MonsterBountyHunter
+[2018.02.13-19.18.55:798][834]LogTemp: CWD: D:\Unreal\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.13-19.18.55:798][834]LogTemp: Initial Dir: D:\Unreal\Epic Games\UE_4.18
+[2018.02.13-19.18.55:798][834]LogTemp: Env CWD: D:\Unreal\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.13-19.18.55:807][835]LogTemp: BranchPath = DESKTOP-M61G1JU/D/Unreal/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-M61G1JU/D/Unreal/Epic Games/UE_4.18/Engine/Binaries
+[2018.02.13-19.18.55:817][836]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.13-19.19.49:250][ 97]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.13-19.19.49:314][101]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MonsterBountyHunter
+[2018.02.13-19.19.49:314][101]LogTemp: CWD: D:\Unreal\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.13-19.19.49:314][101]LogTemp: Initial Dir: D:\Unreal\Epic Games\UE_4.18
+[2018.02.13-19.19.49:314][101]LogTemp: Env CWD: D:\Unreal\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.13-19.19.49:314][101]LogTemp: BranchPath = DESKTOP-M61G1JU/D/Unreal/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-M61G1JU/D/Unreal/Epic Games/UE_4.18/Engine/Binaries
+[2018.02.13-19.19.49:323][102]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.13-19.20.05:481][ 19]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.13-19.20.05:497][ 19]LogBlueprint: Warning: [Compiler TorchController] InputAction Event references unknown Action 'Walk' for  InputAction Walk
+[2018.02.13-19.20.05:497][ 19]LogBlueprint: Warning: [Compiler TorchController] InputAction Event references unknown Action 'Torch' for  InputAction Torch
+[2018.02.13-19.20.05:497][ 19]LogBlueprint: Warning: [Compiler TorchController] Input Axis Event references unknown Axis 'MouseLookHorizontal' for  InputAxis MouseLookHorizontal
+[2018.02.13-19.20.05:497][ 19]LogBlueprint: Warning: [Compiler TorchController] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.02.13-19.20.05:498][ 19]LogBlueprint: Warning: [Compiler TorchController] Input Axis Event references unknown Axis 'MouseLookVertical' for  InputAxis MouseLookVertical
+[2018.02.13-19.20.05:498][ 19]LogBlueprint: Warning: [Compiler TorchController] Input Axis Event references unknown Axis 'Vertical' for  InputAxis Vertical
+[2018.02.13-19.20.05:498][ 19]LogBlueprint: Warning: [Compiler TorchController] Input Axis Event references unknown Axis 'Horizontal' for  InputAxis Horizontal
+[2018.02.13-19.20.05:501][ 19]LogBlueprint: Warning: [Compiler TorchController] [0258.47] Compile of TorchController successful, but with 7 Warning(s) [in 7 ms] (/Game/Blueprints/TorchController.TorchController)
+[2018.02.13-19.20.09:819][515]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.13-19.20.09:834][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.13-19.20.09:834][515]PIE: New page: PIE session: SelfMadeInfinity (Feb 13, 2018, 9:20:09 AM)
+[2018.02.13-19.20.09:834][515]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity
+[2018.02.13-19.20.09:839][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
+[2018.02.13-19.20.09:840][515]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.20.09:840][515]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.02.13-19.20.09:840][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity.SelfMadeInfinity to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity (0.005754s)
+[2018.02.13-19.20.09:856][515]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.20.09:862][515]LogInit: FAudioDevice initialized.
+[2018.02.13-19.20.09:895][515]LogLoad: Game class is 'FPSGameMode_C'
+[2018.02.13-19.20.09:897][515]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.02.13-14.20.09
+[2018.02.13-19.20.09:898][515]LogWorld: Bringing up level for play took: 0.002019
+[2018.02.13-19.20.09:899][515]PIE: Play in editor start time for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity -0.635
+[2018.02.13-19.20.49:923][583]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.13-19.20.49:985][586]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MonsterBountyHunter
+[2018.02.13-19.20.49:985][586]LogTemp: CWD: D:\Unreal\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.13-19.20.49:986][586]LogTemp: Initial Dir: D:\Unreal\Epic Games\UE_4.18
+[2018.02.13-19.20.49:986][586]LogTemp: Env CWD: D:\Unreal\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.13-19.20.49:993][587]LogTemp: BranchPath = DESKTOP-M61G1JU/D/Unreal/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-M61G1JU/D/Unreal/Epic Games/UE_4.18/Engine/Binaries
+[2018.02.13-19.20.50:002][588]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\David\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.13-19.21.14:926][491]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.13-19.21.14:942][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.13-19.21.14:943][491]PIE: New page: PIE session: SelfMadeInfinity (Feb 13, 2018, 9:21:14 AM)
+[2018.02.13-19.21.14:943][491]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity
+[2018.02.13-19.21.14:948][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005237s)
+[2018.02.13-19.21.14:949][491]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.21.14:949][491]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.02.13-19.21.14:949][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity.SelfMadeInfinity to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity (0.006131s)
+[2018.02.13-19.21.14:964][491]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.21.14:971][491]LogInit: FAudioDevice initialized.
+[2018.02.13-19.21.15:002][491]LogLoad: Game class is 'FPSGameMode_C'
+[2018.02.13-19.21.15:004][491]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.02.13-14.21.15
+[2018.02.13-19.21.15:004][491]LogWorld: Bringing up level for play took: 0.001835
+[2018.02.13-19.21.15:006][491]PIE: Play in editor start time for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity 0.471
+[2018.02.13-19.21.36:537][911]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.02.13-19.21.44:485][691]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.13-19.21.55:043][871]LogBlueprint: Warning: [Compiler FPSController] Input Axis Event references unknown Axis 'MouseLookHorizontal' for  InputAxis MouseLookHorizontal
+[2018.02.13-19.21.55:044][871]LogBlueprint: Warning: [Compiler FPSController] Input Axis Event references unknown Axis 'MouseLookVertical' for  InputAxis MouseLookVertical
+[2018.02.13-19.21.55:046][871]LogBlueprint: Warning: [Compiler FPSController] [0368.02] Compile of FPSController successful, but with 2 Warning(s) [in 5 ms] (/Game/Blueprints/FPSController.FPSController)
+[2018.02.13-19.21.55:308][871]LogSlate: Took 0.017684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.13-19.21.55:465][872]LogSlate: Took 0.004918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.13-19.23.22:500][ 23]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.13-19.23.22:525][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.13-19.23.22:525][ 23]PIE: New page: PIE session: SelfMadeInfinity (Feb 13, 2018, 9:23:22 AM)
+[2018.02.13-19.23.22:525][ 23]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity
+[2018.02.13-19.23.22:530][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005277s)
+[2018.02.13-19.23.22:531][ 23]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.23.22:531][ 23]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.02.13-19.23.22:531][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity.SelfMadeInfinity to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity (0.006270s)
+[2018.02.13-19.23.22:557][ 23]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.23.22:564][ 23]LogInit: FAudioDevice initialized.
+[2018.02.13-19.23.22:594][ 23]LogLoad: Game class is 'FPSGameMode_C'
+[2018.02.13-19.23.22:596][ 23]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.02.13-14.23.22
+[2018.02.13-19.23.22:597][ 23]LogWorld: Bringing up level for play took: 0.002049
+[2018.02.13-19.23.22:598][ 23]PIE: Play in editor start time for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity 0.064
+[2018.02.13-19.23.40:451][129]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.13-19.23.40:466][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.13-19.23.40:467][129]PIE: New page: PIE session: SelfMadeInfinity (Feb 13, 2018, 9:23:40 AM)
+[2018.02.13-19.23.40:467][129]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity
+[2018.02.13-19.23.40:472][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005425s)
+[2018.02.13-19.23.40:473][129]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.23.40:473][129]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2018.02.13-19.23.40:473][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity.SelfMadeInfinity to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity (0.006488s)
+[2018.02.13-19.23.40:494][129]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.23.40:500][129]LogInit: FAudioDevice initialized.
+[2018.02.13-19.23.40:534][129]LogLoad: Game class is 'FPSGameMode_C'
+[2018.02.13-19.23.40:536][129]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.02.13-14.23.40
+[2018.02.13-19.23.40:537][129]LogWorld: Bringing up level for play took: 0.002042
+[2018.02.13-19.23.40:538][129]PIE: Play in editor start time for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity 0.005
+[2018.02.13-19.24.35:757][432]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.13-19.24.35:773][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.13-19.24.35:773][432]PIE: New page: PIE session: SelfMadeInfinity (Feb 13, 2018, 9:24:35 AM)
+[2018.02.13-19.24.35:773][432]LogPlayLevel: Creating play world package: /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity
+[2018.02.13-19.24.35:779][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005351s)
+[2018.02.13-19.24.35:779][432]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.02.13-19.24.35:780][432]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2018.02.13-19.24.35:780][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity.SelfMadeInfinity to /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity (0.006394s)
+[2018.02.13-19.24.35:803][432]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.13-19.24.35:809][432]LogInit: FAudioDevice initialized.
+[2018.02.13-19.24.35:845][432]LogLoad: Game class is 'FPSGameMode_C'
+[2018.02.13-19.24.35:848][432]LogWorld: Bringing World /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.02.13-14.24.35
+[2018.02.13-19.24.35:848][432]LogWorld: Bringing up level for play took: 0.002034
+[2018.02.13-19.24.35:849][432]PIE: Play in editor start time for /Game/InfinityBladeGrassLands/Maps/UEDPIE_0_SelfMadeInfinity -0.685
+[2018.02.13-19.24.44:320][434]MapCheck: New page: Map Check
+[2018.02.13-19.24.44:333][434]LightingResults: New page: Lighting Build - Feb 13, 2018, 9:24:44 AM
+[2018.02.13-19.24.44:455][434]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.13-19.24.44:587][434]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.13-19.24.44:609][434]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.13-19.24.45:648][434]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.13-19.24.45:648][434]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8256
+[2018.02.13-19.24.47:900][434]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.02.13-19.24.47:900][434]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.13-19.24.47:900][434]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.13-19.24.47:900][434]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.13-19.24.47:900][434]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.13-19.24.47:900][434]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.13-19.24.48:055][434]LogEditorBuildUtils: Build time 0:03
+[2018.02.13-19.24.48:091][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_Castle_Demon, compiling. 
+[2018.02.13-19.24.48:098][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Plains_Castle_Demon, compiling. 
+[2018.02.13-19.25.02:380][734]LightingResults: Warning: SM_Plains_Castle_DemonDoor_01 Object has overlapping UVs.
+[2018.02.13-19.25.02:380][734]LightingResults: SM_Plains_Castle_DemonDoor_01 Lightmap UV are overlapping by 49.9%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.13-19.25.04:579][953]Job is a success!
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.061s
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 1.8Mb
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport:          1: 30.7% covering 18.4% of volume
+[2018.02.13-19.25.04:678][954]LogVolumetricLightmapImport:          2: 66.7% covering 0.6% of volume
+[2018.02.13-19.25.05:608][954]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.02.13-19.25.05:608][954]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.02.13-19.25.05:608][954]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2018.02.13-19.25.05:608][954]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2018.02.13-19.25.05:608][954]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.02.13-19.25.05:608][954]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.02.13-19.25.05:728][954]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2018.02.13-19.25.05:728][954]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2018.02.13-19.25.05:728][954]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2018.02.13-19.25.05:767][954]Lightmass on DESKTOP-M61G1JU: 16.3 sec total, 550 ms importing, 60 ms setup, 2.30 sec photons, 13.3 sec processing, 0 ms extra exporting [67/67 mappings]. Threads: 53.4 sec total, 26.5 sec processing.
+[2018.02.13-19.25.05:793][954]LogStaticLightingSystem: Illumination: 21.4 sec (886 ms encoding lightmaps, 115 ms encoding shadowmaps)
+[2018.02.13-19.25.05:793][954]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.02.13-19.25.05:793][954]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2018.02.13-19.25.05:906][954]DumpUnbuiltLightIteractions
+[2018.02.13-19.25.05:906][954]Lights with unbuilt interactions: 0
+[2018.02.13-19.25.05:906][954]
+[2018.02.13-19.25.05:906][954]Primitives with unbuilt interactions: 0
+[2018.02.13-19.25.05:915][955]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.13-19.25.05:915][955]MapCheck: New page: SelfMadeInfinity - Feb 13, 2018, 9:25:05 AM
+[2018.02.13-19.25.05:916][955]MapCheck: Warning: SM_Pine_Low_Cluster_10 Collision enabled but StaticMesh (SM_Pine_Low_Cluster) has no simple or complex collision. 
+[2018.02.13-19.25.05:916][955]MapCheck: Warning: SM_Plains_Colunnade_Mid_01_130 Collision enabled but StaticMesh (SM_Plains_Colunnade_Mid_01) has no simple or complex collision. 
+[2018.02.13-19.25.05:916][955]MapCheck: Warning: SM_Plains_Colunnade_Mid_102 Collision enabled but StaticMesh (SM_Plains_Colunnade_Mid_01) has no simple or complex collision. 
+[2018.02.13-19.25.05:916][955]MapCheck: Warning: SM_Plains_LargeRock_SpireLOD4_33 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2018.02.13-19.25.05:916][955]MapCheck: Warning: SM_Plains_LargeRock_SpireLOD5_50 Collision enabled but StaticMesh (SM_Plains_LargeRock_SpireLOD4) has no simple or complex collision. 
+[2018.02.13-19.25.05:917][955]MapCheck: Warning: SM_WoodenBarrel_Destroyed_28 Collision enabled but StaticMesh (SM_WoodenBarrel_Destroyed) has no simple or complex collision. 
+[2018.02.13-19.25.05:977][955]MapCheck: Map check complete: 0 Error(s), 6 Warning(s), took 61.603ms to complete.
+[2018.02.13-19.29.14:670][346]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.13-19.29.14:914][346]LogSavePackage: Save=182.83ms
+[2018.02.13-19.29.14:914][346]LogSavePackage: Moving '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/SelfMadeInfinity_Auto1EB76DA744891DD5E5ED3DC9EC2E6653D.tmp' to '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity_Auto1.umap'
+[2018.02.13-19.29.14:915][346]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity_Auto1.umap
+[2018.02.13-19.29.14:921][346]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity' took 0.217
+[2018.02.13-19.29.14:921][346]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2018.02.13-19.29.14:927][346]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity_BuiltData] ([1] browsable assets)...
+[2018.02.13-19.29.14:927][346]OBJ SavePackage: Finished generating thumbnails for package [/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity_BuiltData]
+[2018.02.13-19.29.15:043][346]LogSavePackage: Save=105.98ms
+[2018.02.13-19.29.15:044][346]LogSavePackage: Moving '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/SelfMadeInfinity_BuiltData_Auto111B8387346252DD8CF132681519EB3BD.tmp' to '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity_BuiltData_Auto1.uasset'
+[2018.02.13-19.29.15:044][346]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Autosaves/Game/InfinityBladeGrassLands/Maps/SelfMadeInfinity_BuiltData_Auto1.uasset
+[2018.02.13-19.29.15:044][346]LogFileHelpers: Auto-saving content packages took 0.117
+[2018.02.13-19.39.08:444][895]Cmd: QUIT_EDITOR
+[2018.02.13-19.39.09:087][895]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.13-19.39.09:132][895]LogExit: Preparing to exit.
+[2018.02.13-19.39.09:659][895]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/' was aborted.
+[2018.02.13-19.39.09:738][895]LogExit: Editor shut down
+[2018.02.13-19.39.09:741][895]LogExit: Transaction tracking system shut down
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../../../Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/' was aborted.
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.13-19.39.10:059][895]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.13-19.39.10:860][895]LogExit: Object subsystem successfully closed.
+[2018.02.13-19.39.11:010][895]LogD3D11RHI: Shutdown
+[2018.02.13-19.39.11:020][895]LogD3D11RHI: CleanupD3DDevice
+[2018.02.13-19.39.11:050][895]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.13-19.39.11:583][895]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
+[2018.02.13-19.39.11:583][895]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (554)
+[2018.02.13-19.39.11:583][895]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.02.13-19.39.11:583][895]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.02.13-19.39.11:583][895]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.02.13-19.39.11:658][895]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.02.13-19.39.11:658][895]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.13-19.39.11:659][895]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.02.13-19.39.11:659][895]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.02.13-19.39.11:659][895]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.02.13-19.39.11:662][895]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/Collections/' was aborted.
+[2018.02.13-19.39.11:662][895]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Content/Developers/David/Collections/' was aborted.
+[2018.02.13-19.39.11:662][895]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Game-AI-Class/MonsterBountyHunter/Saved/Collections/' was aborted.
+[2018.02.13-19.39.11:662][895]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.02.13-19.39.11:666][895]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.13-19.39.11:677][895]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.13-19.39.11:683][895]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.13-19.39.11:699][895]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.13-19.39.11:700][895]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.13-19.39.11:707][895]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.13-19.39.11:717][895]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.13-19.39.11:728][895]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.13-19.39.11:755][895]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.13-19.39.11:755][895]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.13-19.39.11:755][895]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.13-19.39.11:756][895]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.13-19.39.11:759][895]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.13-19.39.11:760][895]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.13-19.39.11:760][895]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.13-19.39.11:760][895]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.13-19.39.11:760][895]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.13-19.39.11:760][895]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.13-19.39.11:777][895]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.13-19.39.11:788][895]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.13-19.39.11:797][895]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.13-19.39.11:837][895]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.13-19.39.11:842][895]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.13-19.39.11:842][895]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.13-19.39.11:842][895]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.13-19.39.11:842][895]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.13-19.39.11:998][895]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.13-19.39.11:998][895]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.13-19.39.11:998][895]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.13-19.39.11:998][895]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.13-19.39.12:015][895]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.13-19.39.12:025][895]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.13-19.39.12:025][895]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.13-19.39.12:033][895]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.13-19.39.12:033][895]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.13-19.39.12:045][895]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.13-19.39.12:047][895]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.13-19.39.12:047][895]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.13-19.39.12:047][895]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.13-19.39.12:047][895]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.13-19.39.12:050][895]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.13-19.39.12:050][895]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.13-19.39.12:050][895]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.13-19.39.12:050][895]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.13-19.39.12:050][895]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.13-19.39.12:050][895]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.13-19.39.12:055][895]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.13-19.39.12:058][895]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.13-19.39.12:065][895]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.13-19.39.12:076][895]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.13-19.39.12:129][895]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.13-19.39.12:149][895]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.13-19.39.12:167][895]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.13-19.39.12:182][895]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.13-19.39.12:182][895]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.13-19.39.12:194][895]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.13-19.39.12:194][895]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.13-19.39.12:238][895]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.13-19.39.12:238][895]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.13-19.39.12:238][895]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.13-19.39.12:272][895]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.13-19.39.12:273][895]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.13-19.39.12:273][895]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.13-19.39.12:281][895]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.13-19.39.12:301][895]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.13-19.39.12:310][895]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.13-19.39.12:314][895]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.13-19.39.12:319][895]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.13-19.39.12:319][895]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.13-19.39.12:439][895]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.13-19.39.12:467][895]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.13-19.39.12:467][895]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.13-19.39.12:467][895]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.13-19.39.12:471][895]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.13-19.39.12:489][895]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.13-19.39.12:490][895]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.13-19.39.12:490][895]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.13-19.39.12:496][895]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.13-19.39.12:496][895]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.13-19.39.12:496][895]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.13-19.39.12:496][895]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.13-19.39.12:511][895]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.13-19.39.12:511][895]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.13-19.39.12:511][895]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.13-19.39.12:511][895]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.13-19.39.12:520][895]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.13-19.39.12:520][895]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.13-19.39.12:528][895]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.13-19.39.12:528][895]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.13-19.39.12:528][895]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.13-19.39.12:543][895]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.13-19.39.12:560][895]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.13-19.39.12:560][895]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.13-19.39.12:560][895]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.13-19.39.12:560][895]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.13-19.39.12:564][895]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.13-19.39.12:571][895]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.13-19.39.12:581][895]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.13-19.39.12:592][895]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.13-19.39.12:592][895]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.13-19.39.12:592][895]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.13-19.39.12:592][895]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.13-19.39.12:617][895]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.13-19.39.12:627][895]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.13-19.39.12:630][895]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.13-19.39.12:634][895]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.13-19.39.12:643][895]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.13-19.39.12:651][895]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.13-19.39.12:660][895]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.13-19.39.12:767][895]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.13-19.39.12:878][895]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.13-19.39.13:000][895]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.13-19.39.13:000][895]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.13-19.39.13:000][895]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.13-19.39.13:006][895]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.13-19.39.13:006][895]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.13-19.39.13:007][895]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.13-19.39.13:007][895]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.13-19.39.13:007][895]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.13-19.39.13:018][895]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.13-19.39.13:030][895]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.13-19.39.13:030][895]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.13-19.39.13:030][895]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.13-19.39.13:030][895]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.13-19.39.13:042][895]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.13-19.39.13:042][895]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.13-19.39.13:048][895]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.13-19.39.13:048][895]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.13-19.39.13:048][895]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.13-19.39.13:061][895]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.13-19.39.13:068][895]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.13-19.39.13:068][895]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.13-19.39.13:081][895]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.13-19.39.13:084][895]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.13-19.39.13:098][895]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.13-19.39.13:098][895]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.13-19.39.13:104][895]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.13-19.39.13:122][895]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.13-19.39.13:138][895]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.13-19.39.13:139][895]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.13-19.39.13:172][895]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.13-19.39.13:172][895]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.13-19.39.13:189][895]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.13-19.39.13:203][895]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.13-19.39.13:203][895]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.13-19.39.13:203][895]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.13-19.39.13:215][895]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.13-19.39.13:223][895]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.13-19.39.13:223][895]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.13-19.39.13:228][895]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.13-19.39.13:228][895]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.13-19.39.13:236][895]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.13-19.39.13:242][895]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.13-19.39.13:265][895]LogDerivedDataCache: Shutdown
+[2018.02.13-19.39.13:265][895]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.13-19.39.13:265][895]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.13-19.39.13:275][895]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.13-19.39.13:282][895]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.13-19.39.13:290][895]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.13-19.39.13:297][895]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.13-19.39.13:305][895]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.13-19.39.13:305][895]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.13-19.39.13:305][895]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.13-19.39.13:305][895]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.13-19.39.13:312][895]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.13-19.39.13:321][895]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.13-19.39.13:321][895]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.13-19.39.13:321][895]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.13-19.39.13:321][895]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.13-19.39.13:321][895]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.13-19.39.13:347][895]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.13-19.39.13:354][895]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.13-19.39.13:354][895]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.13-19.39.13:361][895]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4F603C01-410F-9762-E07C-CFB5079CBF02%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=728498da40a61f6da88a5fb80cb0dbd7%7Ce5fb550725494f188f12f611de85e7cd%7C1b2310b0-6b08-43a8-81e3-eddcf1ff81c2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.13-19.39.13:370][895]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.13-19.39.13:381][895]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.13-19.39.13:385][895]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.13-19.39.13:385][895]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.13-19.39.13:394][895]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.13-19.39.13:394][895]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.13-19.39.13:394][895]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.13-19.39.13:394][895]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.13-19.39.13:405][895]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.13-19.39.13:415][895]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.13-19.39.13:415][895]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.13-19.39.13:423][895]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.13-19.39.13:423][895]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.13-19.39.13:423][895]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.13-19.39.13:423][895]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.13-19.39.13:430][895]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.13-19.39.13:430][895]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.13-19.39.13:432][895]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.13-19.39.13:432][895]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.13-19.39.13:448][895]LogExit: Exiting.
+[2018.02.13-19.39.13:458][895]Log file closed, 02/13/18 14:39:13
