@@ -1,4 +1,4 @@
-﻿Log file open, 03/05/18 14:15:14
+﻿Log file open, 03/06/18 12:03:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,12 +10,12 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
 LogInit: Display: Loading recent project file: ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/MonsterBountyHunter.uproject
-LogInit: Display: RandInit(848127837) SRandInit(848127837).
+LogInit: Display: RandInit(-1752919466) SRandInit(-1752919465).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.228972
+LogStats: Stats thread started at 0.190362
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -197,180 +197,699 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.05-19.15.17:377][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.05-19.15.17:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.05-19.15.17:401][  0]LogInit: Computer: DESKTOP-5F8I6V0
-[2018.03.05-19.15.17:401][  0]LogInit: User: mary
-[2018.03.05-19.15.17:401][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.03.05-19.15.17:401][  0]LogInit: High frequency timer resolution =2.648441 MHz
-[2018.03.05-19.15.17:402][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.03.05-19.15.17:402][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.05-19.15.17:402][  0]LogMemory: Process Physical Memory: 273.40 MB used, 273.40 MB peak
-[2018.03.05-19.15.17:402][  0]LogMemory: Process Virtual Memory: 269.31 MB used, 269.31 MB peak
-[2018.03.05-19.15.17:402][  0]LogMemory: Physical Memory: 3875.28 MB used,  4241.79 MB free, 8117.07 MB total
-[2018.03.05-19.15.17:402][  0]LogMemory: Virtual Memory: 678.65 MB used,  4241.79 MB free, 134217728.00 MB total
-[2018.03.05-19.15.17:739][  0]LogInit: Using OS detected language (en-US).
-[2018.03.05-19.15.17:739][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.05-19.15.17:746][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.05-19.15.18:443][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.05-19.15.18:904][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.05-19.15.18:916][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.03.05-19.15.18:916][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.03.05-19.15.18:919][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.05-19.15.18:919][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.05-19.15.18:919][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.05-19.15.18:928][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.05-19.15.18:928][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.05-19.15.18:928][  0]LogWindows: EnumDisplayDevices:
-[2018.03.05-19.15.18:928][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.03.05-19.15.18:928][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.03.05-19.15.18:929][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.03.05-19.15.18:929][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.05-19.15.18:929][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2018.03.05-19.15.18:929][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.05-19.15.18:929][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.05-19.15.18:930][  0]LogRHI: Texture pool is 1510 MB (70% of 2157 MB)
-[2018.03.05-19.15.18:940][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.05-19.15.18:946][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.03.05-19.15.18:948][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Intermediate/Shaders/WorkingDirectory/9212/).
-[2018.03.05-19.15.18:948][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mary_/AppData/Local/Temp/UnrealShaderWorkingDir/FAE71C1D4149F5FBCDB7D58637443A51/'.
-[2018.03.05-19.15.18:948][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.05-19.15.20:494][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.05-19.15.20:585][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.05-19.15.20:674][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.05-19.15.20:764][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.05-19.15.20:853][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.05-19.15.20:939][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.05-19.15.21:026][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.05-19.15.21:114][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.05-19.15.21:210][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.05-19.15.21:296][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.05-19.15.21:380][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.05-19.15.21:469][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.05-19.15.21:564][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.05-19.15.21:665][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.05-19.15.21:848][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.05-19.15.21:848][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.05-19.15.21:944][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.05-19.15.22:019][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.05-19.15.22:173][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.05-19.15.22:224][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.05-19.15.22:316][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.05-19.15.22:408][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.05-19.15.22:502][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.05-19.15.22:595][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.05-19.15.22:595][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.05-19.15.23:477][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.05-19.15.23:574][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/mary_/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.05-19.15.23:574][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mary_/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.05-19.15.23:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.05-19.15.23:575][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.05-19.15.23:575][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.05-19.15.23:575][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.05-19.15.23:601][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.05-19.15.23:615][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mary_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.05-19.15.23:632][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.05-19.15.23:632][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.05-19.15.23:633][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.05-19.15.23:633][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.05-19.15.24:259][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.05-19.15.24:859][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.05-19.15.24:934][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.05-19.15.24:934][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.05-19.15.24:934][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.05-19.15.24:934][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.05-19.15.24:934][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.05-19.15.24:983][  0]LogNetVersion: MonsterBountyHunter , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1373798905)
-[2018.03.05-19.15.25:263][  0]LogAssetRegistry: FAssetRegistry took 0.0290 seconds to start up
-[2018.03.05-19.15.26:175][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.107569 seconds
-[2018.03.05-19.15.26:184][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.05-19.15.26:184][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.05-19.15.26:184][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.05-19.15.26:289][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.05-19.15.30:993][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.05-19.15.31:065][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.05-19.15.32:293][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.05-19.15.33:111][  0]SourceControl: Source control is disabled
-[2018.03.05-19.15.33:111][  0]SourceControl: Source control is disabled
-[2018.03.05-19.15.33:216][  0]SourceControl: Source control is disabled
-[2018.03.05-19.15.33:314][  0]SourceControl: Source control is disabled
-[2018.03.05-19.15.34:872][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.05-19.15.35:388][  0]LogOcInput: OculusInput pre-init called
-[2018.03.05-19.15.35:961][  0]LogEngine: Initializing Engine...
-[2018.03.05-19.15.35:966][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.05-19.15.36:318][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.05-19.15.36:318][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.05-19.15.36:583][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.05-19.15.36:597][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-19.15.36:649][  0]LogInit: FAudioDevice initialized.
-[2018.03.05-19.15.36:745][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/mary_/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.05-19.15.36:761][  0]LogInit: Texture streaming: Enabled
-[2018.03.05-19.15.36:949][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.05-19.15.37:197][  0]LogInit: Transaction tracking system initialized
-[2018.03.05-19.15.37:797][  0]BlueprintLog: New page: Editor Load
-[2018.03.05-19.15.39:526][  0]LocalizationService: Localization service is disabled
-[2018.03.05-19.15.40:966][  0]LogConsoleResponse: Display: 
-[2018.03.05-19.15.41:334][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.05-19.15.41:334][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.05-19.15.41:334][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.05-19.15.41:979][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' took 0.13s
-[2018.03.05-19.15.43:812][  0]SourceControl: Source control is disabled
-[2018.03.05-19.15.43:813][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.05-19.15.43:813][  0]LightingResults: New page: Lighting Build
-[2018.03.05-19.15.43:893][  0]MapCheck: New page: Map Check
-[2018.03.05-19.15.43:893][  0]LightingResults: New page: Lighting Build
-[2018.03.05-19.15.44:298][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.03.05-19.15.44:309][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.05-19.15.44:334][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.05-19.15.44:428][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.78ms to complete.
-[2018.03.05-19.15.44:428][  0]LogFileHelpers: Loading map 'Template_Default' took 0.616
-[2018.03.05-19.15.44:504][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.05-19.15.44:504][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.05-19.15.44:648][  0]LogCollectionManager: Loaded 0 collections in 0.002645 seconds
-[2018.03.05-19.15.44:766][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Collections/' took 0.01s
-[2018.03.05-19.15.44:766][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Developers/mary/Collections/' took 0.01s
-[2018.03.05-19.15.44:766][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Collections/' took 0.01s
-[2018.03.05-19.15.44:766][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.03.05-19.15.44:781][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 2363 classes and 519 folders.
-[2018.03.05-19.15.44:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.05-19.15.44:981][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.05-19.15.45:060][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.03.05-19.15.45:075][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.05-19.15.45:078][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.05-19.15.45:093][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.05-19.15.45:268][  0]LogRenderer: Reallocating scene render targets to support 724x368 Format 10 NumSamples 1 (Frame:1).
-[2018.03.05-19.15.47:140][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.03.05-19.15.47:141][  0]LogLoad: (Engine Initialization) Total time: 34.71 seconds
-[2018.03.05-19.15.47:141][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.05-19.15.47:141][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.05-19.15.47:175][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.05-19.15.48:546][ 13]LogAssetRegistry: Asset discovery search completed in 23.3059 seconds
-[2018.03.05-19.15.48:571][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.05-19.15.48:571][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000158 seconds (updated 0 objects)
-[2018.03.05-19.16.12:913][593]Cmd: DELETE
-[2018.03.05-19.16.12:914][593]Cmd: ACTOR DELETE
-[2018.03.05-19.16.12:920][593]LogEditorActor: Deleted Actor: SkeletalMeshActor
-[2018.03.05-19.16.12:967][593]LogEditorActor: Deleted 1 Actors (0.054 secs)
-[2018.03.05-19.25.38:251][448]LogSlate: Took 0.000817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-19.25.47:256][644]LogSlate: Took 0.001749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-19.25.47:703][644]LogSavePackage: Save=123.41ms
-[2018.03.05-19.25.47:703][644]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Untitled_1_Auto115D9D5CE4DDFBF7EF04202844DE279F7.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
-[2018.03.05-19.25.47:709][644]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
-[2018.03.05-19.25.47:736][644]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.218
-[2018.03.05-19.25.47:736][644]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.218
-[2018.03.05-19.36.50:938][251]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2018.03.05-19.36.50:940][251]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
-[2018.03.05-19.36.50:940][251]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
-[2018.03.05-19.36.50:941][251]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
-[2018.03.05-19.36.50:942][251]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
-[2018.03.05-19.36.50:980][251]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [1298.55] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 182 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
-[2018.03.05-19.36.52:813][251]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.05-19.36.53:539][251]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 116 classes and 0 folders.
-[2018.03.05-19.36.56:303][251]LogSlate: Took 0.009765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.05-19.36.57:639][252]LogSavePackage: Save=101.15ms
-[2018.03.05-19.36.57:639][252]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Untitled_1_Auto2843BF617445336EBC8BB94960C580AF1.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
-[2018.03.05-19.36.57:643][252]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
-[2018.03.05-19.36.57:652][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.193
-[2018.03.05-19.36.57:652][252]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.193
-[2018.03.05-19.36.57:728][252]LogSlate: Took 0.019055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.05-19.37.01:780][337]LogRenderer: Reallocating scene render targets to support 892x612 Format 10 NumSamples 1 (Frame:1).
+[2018.03.06-17.03.10:462][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.06-17.03.10:462][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.06-17.03.10:500][  0]LogInit: Computer: DESKTOP-5F8I6V0
+[2018.03.06-17.03.10:500][  0]LogInit: User: mary
+[2018.03.06-17.03.10:500][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.03.06-17.03.10:500][  0]LogInit: High frequency timer resolution =2.648441 MHz
+[2018.03.06-17.03.10:501][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.06-17.03.10:501][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.06-17.03.10:501][  0]LogMemory: Process Physical Memory: 273.37 MB used, 273.37 MB peak
+[2018.03.06-17.03.10:501][  0]LogMemory: Process Virtual Memory: 269.19 MB used, 269.19 MB peak
+[2018.03.06-17.03.10:501][  0]LogMemory: Physical Memory: 2629.82 MB used,  5487.25 MB free, 8117.07 MB total
+[2018.03.06-17.03.10:501][  0]LogMemory: Virtual Memory: 678.65 MB used,  5487.25 MB free, 134217728.00 MB total
+[2018.03.06-17.03.10:860][  0]LogInit: Using OS detected language (en-US).
+[2018.03.06-17.03.10:860][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.06-17.03.10:952][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.06-17.03.11:757][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.06-17.03.16:228][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.06-17.03.16:250][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.03.06-17.03.16:250][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.06-17.03.16:254][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.06-17.03.16:254][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.06-17.03.16:254][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.06-17.03.16:265][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.06-17.03.16:266][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.06-17.03.16:266][  0]LogWindows: EnumDisplayDevices:
+[2018.03.06-17.03.16:266][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.03.06-17.03.16:267][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.06-17.03.16:267][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.06-17.03.16:267][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.06-17.03.16:267][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.03.06-17.03.16:267][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.06-17.03.16:267][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.06-17.03.16:267][  0]LogRHI: Texture pool is 1510 MB (70% of 2157 MB)
+[2018.03.06-17.03.16:280][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.06-17.03.16:289][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.03.06-17.03.16:293][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Intermediate/Shaders/WorkingDirectory/15304/).
+[2018.03.06-17.03.16:293][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mary_/AppData/Local/Temp/UnrealShaderWorkingDir/511DF8C34071D2FBA813E0AB6CE916A1/'.
+[2018.03.06-17.03.16:294][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.06-17.03.20:011][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.06-17.03.20:124][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.06-17.03.20:233][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.06-17.03.20:346][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.06-17.03.20:467][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.06-17.03.20:579][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.06-17.03.20:692][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.06-17.03.20:795][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.06-17.03.20:891][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.06-17.03.20:995][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.06-17.03.21:097][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.06-17.03.21:202][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.06-17.03.21:302][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.06-17.03.21:403][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.06-17.03.21:606][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.06-17.03.21:606][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.06-17.03.21:718][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.06-17.03.21:803][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.06-17.03.21:979][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.06-17.03.22:034][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.06-17.03.22:137][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.06-17.03.22:237][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.06-17.03.22:342][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.06-17.03.22:449][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.06-17.03.22:449][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.06-17.03.23:455][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.06-17.03.23:808][  0]LogDerivedDataCache: Loaded boot cache 0.35s 78MB C:/Users/mary_/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.06-17.03.23:808][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mary_/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.06-17.03.23:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.06-17.03.23:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.06-17.03.23:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.06-17.03.23:808][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.06-17.03.23:854][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.06-17.03.23:866][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mary_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.06-17.03.23:885][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.06-17.03.23:886][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.06-17.03.23:911][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.06-17.03.23:911][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.06-17.03.25:491][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.06-17.03.26:181][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.06-17.03.26:283][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.06-17.03.26:283][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.06-17.03.26:283][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.06-17.03.26:283][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.06-17.03.26:283][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.06-17.03.26:526][  0]LogNetVersion: MonsterBountyHunter , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1373798905)
+[2018.03.06-17.03.27:061][  0]LogAssetRegistry: FAssetRegistry took 0.0319 seconds to start up
+[2018.03.06-17.03.28:858][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.147745 seconds
+[2018.03.06-17.03.28:867][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.06-17.03.28:867][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.06-17.03.28:868][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.06-17.03.29:005][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.06-17.03.37:881][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.06-17.03.37:954][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.06-17.03.39:281][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.06-17.03.39:960][  0]SourceControl: Source control is disabled
+[2018.03.06-17.03.39:960][  0]SourceControl: Source control is disabled
+[2018.03.06-17.03.40:034][  0]SourceControl: Source control is disabled
+[2018.03.06-17.03.40:105][  0]SourceControl: Source control is disabled
+[2018.03.06-17.03.41:298][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.06-17.03.41:816][  0]LogOcInput: OculusInput pre-init called
+[2018.03.06-17.03.42:474][  0]LogEngine: Initializing Engine...
+[2018.03.06-17.03.42:480][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.06-17.03.43:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.06-17.03.43:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.06-17.03.43:293][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.06-17.03.43:308][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-17.03.43:363][  0]LogInit: FAudioDevice initialized.
+[2018.03.06-17.03.43:448][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/mary_/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.06-17.03.43:456][  0]LogInit: Texture streaming: Enabled
+[2018.03.06-17.03.43:597][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.06-17.03.43:787][  0]LogInit: Transaction tracking system initialized
+[2018.03.06-17.03.44:216][  0]BlueprintLog: New page: Editor Load
+[2018.03.06-17.03.45:395][  0]LocalizationService: Localization service is disabled
+[2018.03.06-17.03.46:380][  0]LogConsoleResponse: Display: 
+[2018.03.06-17.03.46:935][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.06-17.03.46:935][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.06-17.03.46:935][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.06-17.03.47:188][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' took 0.10s
+[2018.03.06-17.03.48:609][  0]SourceControl: Source control is disabled
+[2018.03.06-17.03.48:611][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.06-17.03.48:619][  0]LightingResults: New page: Lighting Build
+[2018.03.06-17.03.48:672][  0]MapCheck: New page: Map Check
+[2018.03.06-17.03.48:672][  0]LightingResults: New page: Lighting Build
+[2018.03.06-17.03.49:016][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.06-17.03.49:028][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.06-17.03.49:049][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.06-17.03.49:112][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.411ms to complete.
+[2018.03.06-17.03.49:112][  0]LogFileHelpers: Loading map 'Template_Default' took 0.501
+[2018.03.06-17.03.49:309][  0]LogCollectionManager: Loaded 0 collections in 0.002185 seconds
+[2018.03.06-17.03.49:396][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Collections/' took 0.01s
+[2018.03.06-17.03.49:396][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Developers/mary/Collections/' took 0.01s
+[2018.03.06-17.03.49:396][  0]LogFileCache: Scanning file cache for directory 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Collections/' took 0.01s
+[2018.03.06-17.03.49:396][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.06-17.03.49:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2363 classes and 519 folders.
+[2018.03.06-17.03.49:494][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.06-17.03.50:094][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.06-17.03.50:149][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.06-17.03.50:249][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.06-17.03.50:249][  0]LogLoad: (Engine Initialization) Total time: 48.51 seconds
+[2018.03.06-17.03.50:249][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.06-17.03.50:249][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.06-17.03.50:616][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.06-17.03.50:635][  0]LogSlate: Took 0.016209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.06-17.03.50:654][  0]LogSlate: Took 0.013879 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.06-17.03.50:693][  0]LogSlate: Took 0.023627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.06-17.03.50:968][  2]LogRenderer: Reallocating scene render targets to support 476x244 Format 10 NumSamples 1 (Frame:1).
+[2018.03.06-17.03.52:084][  3]LogSlate: Took 0.007985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.06-17.03.54:070][  9]LogAssetRegistry: Asset discovery search completed in 27.0330 seconds
+[2018.03.06-17.03.54:097][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.06-17.03.54:098][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001132 seconds (updated 0 objects)
+[2018.03.06-17.04.38:325][254]LogRenderer: Reallocating scene render targets to support 724x368 Format 10 NumSamples 1 (Frame:108).
+[2018.03.06-17.04.41:084][388]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.03.06-17.04.41:084][388]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.06-17.04.41:085][388]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.06-17.04.41:085][388]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.06-17.04.41:085][388]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.06-17.04.41:095][388]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0099.35] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 43 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.06-17.04.41:237][388]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.04.41:237][388]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.04.41:237][388]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.04.41:240][388]LogBlueprint: Warning: [Compiler AIChar] [0099.50] Compile of AIChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/AI/AIChar.AIChar)
+[2018.03.06-17.04.41:532][388]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.06-17.04.41:882][388]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.06-17.04.42:495][388]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.06-17.04.42:616][388]LogSlate: Took 0.007552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.06-17.04.42:793][389]LogSlate: Took 0.005973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.06-17.04.51:415][698]LogRenderer: Reallocating scene render targets to support 724x612 Format 10 NumSamples 1 (Frame:1).
+[2018.03.06-17.05.11:961][159]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.03.06-17.05.12:516][159]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.06-17.05.12:618][159]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.03.06-17.05.13:587][159]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.03.06-17.05.16:549][183]LogRenderer: Reallocating scene render targets to support 812x760 Format 10 NumSamples 1 (Frame:22).
+[2018.03.06-17.05.18:629][198]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.03.06-17.05.18:704][198]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2018.03.06-17.05.19:497][198]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.03.06-17.05.33:613][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.03.06-17.05.33:734][327]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2018.03.06-17.05.54:233][528]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights
+[2018.03.06-17.05.54:234][528]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_to_Stand_Rifle_Ironsights.Crouch_to_Stand_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_5) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.03.06-17.07.00:701][173]LogSavePackage: Save=20.56ms
+[2018.03.06-17.07.00:702][173]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/UE4_Mannequin_Skeleton7CF2DB5C409A2F7FFD38B789E6D4FF20.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.03.06-17.07.00:724][173]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.03.06-17.08.29:136][629]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) Already registered. Aborting.
+[2018.03.06-17.08.29:270][629]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_5) - call TermArticulated first.
+[2018.03.06-17.08.39:606][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.03.06-17.08.39:725][720]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2018.03.06-17.09.07:738][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_5.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2018.03.06-17.09.07:819][ 25]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_5.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2018.03.06-17.09.08:775][ 25]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.03.06-17.10.35:867][603]Cmd: TRANSACTION UNDO
+[2018.03.06-17.10.35:867][603]LogEditorTransaction: Undo Rename Socket
+[2018.03.06-17.10.36:406][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2018.03.06-17.10.36:408][603]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_5.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2018.03.06-17.11.58:021][ 80]LogSavePackage: Save=18.59ms
+[2018.03.06-17.11.58:021][ 80]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/UE4_Mannequin_SkeletonC202AD93412861D55881C28C20EC2A12.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.03.06-17.11.58:030][ 80]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.03.06-17.16.02:118][292]LogSavePackage: Save=14.13ms
+[2018.03.06-17.16.02:118][292]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/UE4_Mannequin_SkeletonC12FB9CD499AE44DA465E7A14B8FD190.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.03.06-17.16.02:124][292]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.03.06-17.16.04:574][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimStarterPack/BS_CrouchWalk" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/BS_CrouchWalk.uasset" SILENT=true
+[2018.03.06-17.16.04:677][337]LogSavePackage: Save=68.87ms
+[2018.03.06-17.16.04:677][337]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BS_CrouchWalkCF0162B34D39DDE7EEB7359E69BC4600.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/BS_CrouchWalk.uasset'
+[2018.03.06-17.16.04:681][337]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/BS_CrouchWalk.uasset
+[2018.03.06-17.16.33:236][367]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.082
+[2018.03.06-17.16.33:240][367]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2018.03.06-17.16.33:299][367]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar.AIChar]
+[2018.03.06-17.16.33:299][367]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2018.03.06-17.16.33:299][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-17.16.33:469][367]LogSavePackage: Save=143.49ms
+[2018.03.06-17.16.33:469][367]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AIChar_Auto1BF4EF4DD4C7F6279479C3094A7DCF0DD.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto1.uasset'
+[2018.03.06-17.16.33:473][367]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto1.uasset
+[2018.03.06-17.16.33:473][367]LogFileHelpers: Auto-saving content packages took 0.235
+[2018.03.06-17.18.37:640][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset" SILENT=true
+[2018.03.06-17.18.37:806][333]LogSavePackage: Save=146.16ms
+[2018.03.06-17.18.37:806][333]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AICharF5DAACF74C6A1A3B3BFEAB883217795F.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset'
+[2018.03.06-17.18.37:813][333]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset
+[2018.03.06-17.18.38:114][349]BlueprintLog: New page: Compile AIChar
+[2018.03.06-17.18.38:165][349]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.18.38:165][349]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.18.38:165][349]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.18.38:756][349]LogBlueprint: Warning: [Compiler AIChar] [0937.01] Compile of AIChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 642 ms] (/Game/AI/AIChar.AIChar)
+[2018.03.06-17.19.04:099][389]LogAIModule: Creating AISystem for world BlankMap
+[2018.03.06-17.19.04:175][389]Cmd: MAP LOAD FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.06-17.19.04:175][389]LightingResults: New page: Lighting Build
+[2018.03.06-17.19.04:177][389]LoadErrors: New page: Loading map: BlankMap.umap
+[2018.03.06-17.19.04:179][389]MapCheck: New page: Map Check
+[2018.03.06-17.19.04:179][389]LightingResults: New page: Lighting Build
+[2018.03.06-17.19.04:242][389]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.06-17.19.04:370][389]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.06-17.19.04:511][389]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.437ms to complete.
+[2018.03.06-17.19.04:511][389]LogFileHelpers: Loading map 'BlankMap' took 0.338
+[2018.03.06-17.20.18:829][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.03.06-17.20.18:904][173]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2018.03.06-17.20.23:014][235]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_7.DebugSkelMeshComponent_10) Already registered. Aborting.
+[2018.03.06-17.20.23:094][235]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_7.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2018.03.06-17.20.32:196][393]LogSavePackage: Save=20.46ms
+[2018.03.06-17.20.32:197][393]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Merciless_Crossbow_Skeleton9586F6EF4410FD813520D5B0D4E1679B.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Models/Crossbow/Merciless_Crossbow_Skeleton.uasset'
+[2018.03.06-17.20.32:201][393]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Models/Crossbow/Merciless_Crossbow_Skeleton.uasset
+[2018.03.06-17.20.40:876][540]LogSavePackage: Save=19.37ms
+[2018.03.06-17.20.40:876][540]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/UE4_Mannequin_SkeletonBD3D83AE4B8FE17277F842B1FA2A9FE1.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2018.03.06-17.20.40:880][540]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.03.06-17.20.50:829][709]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_8.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2018.03.06-17.20.50:948][709]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_8.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2018.03.06-17.20.56:827][756]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_9.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2018.03.06-17.20.56:919][756]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.Actor_9.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2018.03.06-17.21.34:051][360]Cmd: TRANSACTION UNDO
+[2018.03.06-17.21.34:051][360]LogEditorTransaction: Undo Add Socket to Skeleton
+[2018.03.06-17.21.34:364][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.Actor_9.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2018.03.06-17.21.54:811][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset" SILENT=true
+[2018.03.06-17.21.55:019][765]LogSavePackage: Save=169.44ms
+[2018.03.06-17.21.55:019][765]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AIChar7E910FDA4E552CCA18A941BE59D30F1B.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset'
+[2018.03.06-17.21.55:025][765]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset
+[2018.03.06-17.21.55:807][787]BlueprintLog: New page: Compile AIChar
+[2018.03.06-17.21.55:865][787]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.21.55:866][787]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.21.55:866][787]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.21.56:678][787]LogBlueprint: Warning: [Compiler AIChar] [1134.94] Compile of AIChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 870 ms] (/Game/AI/AIChar.AIChar)
+[2018.03.06-17.22.05:457][987]LogEditorViewport: Clicking on Actor (LMB): AIChar_C (AIChar)
+[2018.03.06-17.22.06:666][ 13]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.06-17.22.07:256][ 13]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/BlankMap.BlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap' with GeneratedClass '/Game/Maps/BlankMap.BlankMap_C' with ClassGeneratedBy '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap'
+[2018.03.06-17.22.07:256][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.06-17.22.08:972][ 13]PIE: New page: PIE session: BlankMap (Mar 6, 2018, 7:22:08 AM)
+[2018.03.06-17.22.08:972][ 13]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BlankMap
+[2018.03.06-17.22.08:979][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006159s)
+[2018.03.06-17.22.08:979][ 13]LogAIModule: Creating AISystem for world BlankMap
+[2018.03.06-17.22.08:980][ 13]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2018.03.06-17.22.08:980][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BlankMap.BlankMap to /Game/Maps/UEDPIE_0_BlankMap.BlankMap (0.007460s)
+[2018.03.06-17.22.09:008][ 13]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-17.22.09:026][ 13]LogInit: FAudioDevice initialized.
+[2018.03.06-17.22.09:341][ 13]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.06-17.22.09:343][ 13]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BlankMap.BlankMap up for play (max tick rate 0) at 2018.03.06-12.22.09
+[2018.03.06-17.22.09:357][ 13]LogWorld: Bringing up level for play took: 0.014541
+[2018.03.06-17.22.09:404][ 13]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.06-17.22.09:409][ 13]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_BlankMap 1.308
+[2018.03.06-17.22.09:409][ 13]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/BlankMap.BlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap' with GeneratedClass '/Game/Maps/BlankMap.BlankMap_C' with ClassGeneratedBy '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap'
+[2018.03.06-17.22.13:408][121]Cmd: SELECT NONE
+[2018.03.06-17.22.15:666][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/BlankMap.BlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap' with GeneratedClass '/Game/Maps/BlankMap.BlankMap_C' with ClassGeneratedBy '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap'
+[2018.03.06-17.22.15:748][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/BlankMap.BlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap' with GeneratedClass '/Game/Maps/BlankMap.BlankMap_C' with ClassGeneratedBy '/Game/Maps/BlankMap.BlankMap:PersistentLevel.BlankMap'
+[2018.03.06-17.29.58:800][603]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Shoot Enemy  and was replaced as a Custom Event!
+[2018.03.06-17.30.09:301][ 60]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent_1   conflicted with  Shoot Enemy  and was replaced as a Custom Event!
+[2018.03.06-17.31.01:373][370]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.06-17.31.54:508][895]LogSavePackage: Save=219.68ms
+[2018.03.06-17.31.54:508][895]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BlankMap_Auto23838F62F4880C9831DB92997D51D81B3.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/Maps/BlankMap_Auto2.umap'
+[2018.03.06-17.31.54:509][895]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/Maps/BlankMap_Auto2.umap
+[2018.03.06-17.31.54:512][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BlankMap' took 0.382
+[2018.03.06-17.31.54:512][895]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.382
+[2018.03.06-17.31.54:514][895]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2018.03.06-17.31.54:552][895]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar.AIChar]
+[2018.03.06-17.31.54:552][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2018.03.06-17.31.54:552][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-17.31.54:622][895]LogSavePackage: Save=58.40ms
+[2018.03.06-17.31.54:622][895]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AIChar_Auto2F05B2FEE42C267E4FC1BB992E3011C1E.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto2.uasset'
+[2018.03.06-17.31.54:624][895]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto2.uasset
+[2018.03.06-17.31.54:624][895]LogFileHelpers: Auto-saving content packages took 0.110
+[2018.03.06-17.37.22:273][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset" SILENT=true
+[2018.03.06-17.37.22:418][489]LogSavePackage: Save=120.47ms
+[2018.03.06-17.37.22:418][489]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AICharF40CEB18417A26F686933FA9D9978408.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset'
+[2018.03.06-17.37.22:435][489]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset
+[2018.03.06-17.37.23:546][550]BlueprintLog: New page: Compile AIChar
+[2018.03.06-17.37.23:597][550]LogBlueprint: Error: [Compiler AIChar] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.03.06-17.37.24:231][550]LogBlueprint: Warning: [Compiler AIChar] [2062.49] Compile of AIChar failed. 1 Fatal Issue(s) 0 Warning(s) [in 684 ms] (/Game/AI/AIChar.AIChar)
+[2018.03.06-17.41.11:783][518]LogBehaviorTree: Warning: Can't initialize BTDecorator_Blackboard_0 due to missing blackboard data.
+[2018.03.06-17.44.34:677][109]LogBehaviorTree: Warning: Can't initialize BTDecorator_Blackboard_1 due to missing blackboard data.
+[2018.03.06-17.45.54:714][155]LogSavePackage: Save=121.24ms
+[2018.03.06-17.45.54:714][155]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BlankMap_Auto3BA7633854BBD4B07944D28B9886879E6.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/Maps/BlankMap_Auto3.umap'
+[2018.03.06-17.45.54:715][155]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/Maps/BlankMap_Auto3.umap
+[2018.03.06-17.45.54:717][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BlankMap' took 0.167
+[2018.03.06-17.45.54:717][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2018.03.06-17.45.54:720][155]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2018.03.06-17.45.54:752][155]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar.AIChar]
+[2018.03.06-17.45.54:752][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2018.03.06-17.45.54:752][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-17.45.54:816][155]LogSavePackage: Save=52.99ms
+[2018.03.06-17.45.54:816][155]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AIChar_Auto3CD421505434DB00EF5D18E89B6F5DFB1.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto3.uasset'
+[2018.03.06-17.45.54:826][155]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto3.uasset
+[2018.03.06-17.45.54:826][155]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_AIChar] ([1] browsable assets)...
+[2018.03.06-17.45.54:826][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_AIChar]
+[2018.03.06-17.45.54:826][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/BT_AIChar_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-17.45.54:843][155]LogSavePackage: Save=8.27ms
+[2018.03.06-17.45.54:843][155]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BT_AIChar_Auto3C4D862AB40550FA2201F18BA4316CA9C.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/BT_AIChar_Auto3.uasset'
+[2018.03.06-17.45.54:844][155]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/BT_AIChar_Auto3.uasset
+[2018.03.06-17.45.54:844][155]LogFileHelpers: Auto-saving content packages took 0.125
+[2018.03.06-17.50.41:619][916]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New.
+[2018.03.06-17.51.02:542][763]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New1.
+[2018.03.06-17.51.16:225][ 50]LogMetaData: Removing '/Game/AI/Attack.SKEL_Attack_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.03.06-17.51.16:225][ 50]LogMetaData: Removing '/Game/AI/Attack.Attack_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.03.06-17.51.16:286][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Attack" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/Attack.uasset" SILENT=true
+[2018.03.06-17.51.16:311][ 50]LogSavePackage: Save=19.13ms
+[2018.03.06-17.51.16:311][ 50]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Attack36A81C1141F883254938A68FBA5A0FCE.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/Attack.uasset'
+[2018.03.06-17.51.16:320][ 50]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/Attack.uasset
+[2018.03.06-17.51.16:623][ 51]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Attack.
+[2018.03.06-17.56.09:411][650]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New.
+[2018.03.06-17.57.07:590][784]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New1.
+[2018.03.06-17.57.15:153][221]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/BTTask_BlueprintBase_New2.
+[2018.03.06-17.58.13:117][760]LogMetaData: Removing '/Game/AI/FindSearchPoints.SKEL_FindSearchPoints_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.03.06-17.58.13:117][760]LogMetaData: Removing '/Game/AI/FindSearchPoints.FindSearchPoints_C' ref from Metadata '/Game/AI/BTTask_BlueprintBase_New.PackageMetaData'
+[2018.03.06-17.58.13:166][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/FindSearchPoints" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/FindSearchPoints.uasset" SILENT=true
+[2018.03.06-17.58.13:193][760]LogSavePackage: Save=23.86ms
+[2018.03.06-17.58.13:194][760]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/FindSearchPointsBD3FA6964795BAB39498B7A54191178E.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/FindSearchPoints.uasset'
+[2018.03.06-17.58.13:198][760]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/FindSearchPoints.uasset
+[2018.03.06-17.58.13:494][762]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/FindSearchPoints.
+[2018.03.06-18.00.34:946][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/BT_AIChar.uasset" SILENT=true
+[2018.03.06-18.00.34:981][845]LogSavePackage: Save=24.51ms
+[2018.03.06-18.00.34:981][845]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BT_AICharBD72D6184D6F30F6A2588996AB8744B0.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/BT_AIChar.uasset'
+[2018.03.06-18.00.34:987][845]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/BT_AIChar.uasset
+[2018.03.06-18.02.06:689][508]LogSavePackage: Save=185.58ms
+[2018.03.06-18.02.06:689][508]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BlankMap_Auto4DFABAF474BA0379040B24FA91D380059.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/Maps/BlankMap_Auto4.umap'
+[2018.03.06-18.02.06:691][508]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/Maps/BlankMap_Auto4.umap
+[2018.03.06-18.02.06:693][508]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BlankMap' took 0.251
+[2018.03.06-18.02.06:693][508]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2018.03.06-18.02.06:696][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2018.03.06-18.02.06:731][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar.AIChar]
+[2018.03.06-18.02.06:731][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2018.03.06-18.02.06:731][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-18.02.06:806][508]LogSavePackage: Save=63.63ms
+[2018.03.06-18.02.06:806][508]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AIChar_Auto4CBE913D0468B0555F81C3398AF9A504A.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto4.uasset'
+[2018.03.06-18.02.06:811][508]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/AIChar_Auto4.uasset
+[2018.03.06-18.02.06:811][508]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Attack] ([1] browsable assets)...
+[2018.03.06-18.02.06:811][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Attack]
+[2018.03.06-18.02.06:811][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Attack" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/Attack_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-18.02.06:826][508]LogSavePackage: Save=6.30ms
+[2018.03.06-18.02.06:826][508]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Attack_Auto4D14015F048EF4A95A6ABF3B642FC60F3.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/Attack_Auto4.uasset'
+[2018.03.06-18.02.06:827][508]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/Attack_Auto4.uasset
+[2018.03.06-18.02.06:827][508]LogFileHelpers: Auto-saving content packages took 0.132
+[2018.03.06-18.11.02:223][796]LogHttp: Warning: 00000126DAE6A200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.06-18.11.02:223][796]LogHttp: Warning: 00000126DAE6A200: libcurl info message cache 0 (Connection 26 seems to be dead!)
+[2018.03.06-18.11.02:223][796]LogHttp: Warning: 00000126DAE6A200: libcurl info message cache 1 (Closing connection 26)
+[2018.03.06-18.11.02:223][796]LogHttp: Warning: 00000126DAE6A200: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.03.06-18.11.02:224][796]LogHttp: Warning: 00000126DAE6A200: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.06-18.11.02:224][796]LogHttp: Warning: 00000126DAE6A200: libcurl info message cache 4 (Closing connection 27)
+[2018.03.06-18.14.13:375][553]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BlankMap' took 0.025
+[2018.03.06-18.14.13:377][553]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Attack] ([1] browsable assets)...
+[2018.03.06-18.14.13:377][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Attack]
+[2018.03.06-18.14.13:377][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Attack" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/Attack_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2018.03.06-18.14.13:407][553]LogSavePackage: Save=19.75ms
+[2018.03.06-18.14.13:407][553]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Attack_Auto500D8BF774DA1BF7F4789EE9A35261EE4.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/Attack_Auto5.uasset'
+[2018.03.06-18.14.13:416][553]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Autosaves/Game/AI/Attack_Auto5.uasset
+[2018.03.06-18.14.13:416][553]LogFileHelpers: Auto-saving content packages took 0.039
+[2018.03.06-18.15.04:533][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Attack" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/Attack.uasset" SILENT=true
+[2018.03.06-18.15.04:561][395]LogSavePackage: Save=18.98ms
+[2018.03.06-18.15.04:561][395]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AttackF2D74E7649FF7A8FD249B4B7B739F927.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/Attack.uasset'
+[2018.03.06-18.15.04:567][395]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/Attack.uasset
+[2018.03.06-18.15.05:455][448]BlueprintLog: New page: Compile Attack
+[2018.03.06-18.33.38:999][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BlankMap" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-18.33.39:201][669]LogSavePackage: Save=143.55ms
+[2018.03.06-18.33.39:201][669]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BlankMapE25566594DB121EE6EF956B10C0C5576.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap.umap'
+[2018.03.06-18.33.39:208][669]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap.umap
+[2018.03.06-18.33.39:249][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BlankMap_BuiltData" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap_BuiltData.uasset" SILENT=true
+[2018.03.06-18.33.39:288][669]LogSavePackage: Save=28.38ms
+[2018.03.06-18.33.39:289][669]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/BlankMap_BuiltDataD9F9E7B04AFB628466E8B5B9C044F66E.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap_BuiltData.uasset'
+[2018.03.06-18.33.39:290][669]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/BlankMap_BuiltData.uasset
+[2018.03.06-18.33.43:030][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset" SILENT=true
+[2018.03.06-18.33.43:100][753]LogSavePackage: Save=58.43ms
+[2018.03.06-18.33.43:101][753]LogSavePackage: Moving '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/AIChar19ED2FDA44911EA38AEC37884D093332.tmp' to '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset'
+[2018.03.06-18.33.43:107][753]LogSavePackage: Display: Finished SavePackage ../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/AI/AIChar.uasset
+[2018.03.06-18.33.43:249][753]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.06-18.33.43:249][753]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.06-18.33.43:557][754]Cmd: QUIT_EDITOR
+[2018.03.06-18.33.44:021][754]LogExit: Preparing to exit.
+[2018.03.06-18.33.44:866][754]LogDirectoryWatcher: A directory notification for 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' was aborted.
+[2018.03.06-18.33.44:995][754]LogExit: Editor shut down
+[2018.03.06-18.33.45:030][754]LogExit: Transaction tracking system shut down
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../../../../New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' was aborted.
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.06-18.33.45:313][754]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.06-18.33.45:476][754]LogExit: Object subsystem successfully closed.
+[2018.03.06-18.33.45:512][754]LogD3D11RHI: Shutdown
+[2018.03.06-18.33.45:512][754]LogD3D11RHI: CleanupD3DDevice
+[2018.03.06-18.33.45:552][754]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (560)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module AnimationEditor (558)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (556)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module SkeletonEditor (554)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.03.06-18.33.45:569][754]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.03.06-18.33.45:570][754]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.06-18.33.45:575][754]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.03.06-18.33.45:576][754]LogDirectoryWatcher: A directory notification for 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Collections/' was aborted.
+[2018.03.06-18.33.45:576][754]LogDirectoryWatcher: A directory notification for 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Developers/mary/Collections/' was aborted.
+[2018.03.06-18.33.45:576][754]LogDirectoryWatcher: A directory notification for 'C:/New/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Collections/' was aborted.
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.06-18.33.45:576][754]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.06-18.33.45:577][754]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.06-18.33.45:578][754]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.06-18.33.45:578][754]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.06-18.33.45:578][754]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.06-18.33.45:578][754]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.06-18.33.45:578][754]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.06-18.33.46:421][754]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.06-18.33.46:422][754]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.06-18.33.46:423][754]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.06-18.33.46:424][754]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.06-18.33.46:425][754]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.06-18.33.46:425][754]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.06-18.33.46:425][754]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.06-18.33.46:425][754]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.06-18.33.46:425][754]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.06-18.33.46:425][754]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.06-18.33.46:481][754]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.06-18.33.46:481][754]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.06-18.33.46:481][754]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.06-18.33.46:481][754]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.06-18.33.46:481][754]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.06-18.33.46:482][754]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.06-18.33.46:482][754]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.06-18.33.46:483][754]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.06-18.33.46:483][754]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.06-18.33.46:483][754]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.06-18.33.46:527][754]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.06-18.33.46:538][754]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.06-18.33.46:539][754]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.06-18.33.46:539][754]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.06-18.33.46:539][754]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.06-18.33.46:539][754]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.06-18.33.46:539][754]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.06-18.33.46:542][754]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.06-18.33.46:543][754]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.06-18.33.46:543][754]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.06-18.33.46:543][754]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.06-18.33.46:613][754]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.06-18.33.46:613][754]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.06-18.33.46:613][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.06-18.33.46:614][754]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.06-18.33.46:615][754]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.06-18.33.46:616][754]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.06-18.33.46:616][754]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.06-18.33.46:616][754]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.06-18.33.46:616][754]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.06-18.33.46:616][754]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.06-18.33.46:617][754]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.06-18.33.46:618][754]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.06-18.33.46:626][754]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.06-18.33.46:626][754]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.06-18.33.46:626][754]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.06-18.33.46:628][754]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.06-18.33.46:730][754]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.06-18.33.46:830][754]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.06-18.33.46:830][754]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.06-18.33.46:830][754]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.06-18.33.46:830][754]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.06-18.33.46:831][754]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.06-18.33.46:831][754]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.06-18.33.46:841][754]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.06-18.33.46:841][754]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.06-18.33.46:841][754]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.06-18.33.46:841][754]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.06-18.33.46:848][754]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.06-18.33.46:848][754]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.06-18.33.46:848][754]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.06-18.33.46:848][754]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.06-18.33.46:848][754]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.06-18.33.46:849][754]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.06-18.33.46:857][754]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.06-18.33.46:857][754]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.06-18.33.46:857][754]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.06-18.33.46:857][754]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.06-18.33.46:857][754]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.06-18.33.46:858][754]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.06-18.33.46:859][754]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.06-18.33.46:859][754]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.06-18.33.46:860][754]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.06-18.33.46:860][754]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.06-18.33.46:875][754]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.06-18.33.46:875][754]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.06-18.33.46:875][754]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.06-18.33.46:875][754]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.06-18.33.46:875][754]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.06-18.33.46:875][754]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.06-18.33.46:876][754]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.06-18.33.46:876][754]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.06-18.33.46:905][754]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.06-18.33.46:905][754]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.06-18.33.46:905][754]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.06-18.33.46:906][754]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.06-18.33.46:906][754]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.06-18.33.46:906][754]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.06-18.33.46:906][754]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.06-18.33.46:906][754]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.06-18.33.46:906][754]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.06-18.33.46:938][754]LogDerivedDataCache: Shutdown
+[2018.03.06-18.33.46:939][754]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.06-18.33.46:939][754]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.06-18.33.46:939][754]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.06-18.33.46:940][754]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.06-18.33.46:941][754]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.06-18.33.46:941][754]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.06-18.33.46:941][754]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.06-18.33.46:941][754]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.06-18.33.46:941][754]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.06-18.33.46:942][754]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.06-18.33.46:942][754]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.06-18.33.46:942][754]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.06-18.33.46:942][754]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.06-18.33.46:943][754]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.06-18.33.46:944][754]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.06-18.33.46:945][754]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.06-18.33.46:946][754]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.06-18.33.46:947][754]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.06-18.33.46:947][754]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC3E72436-44C6-8B3F-3E2B-BFAB280F5485%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=11358c1d49438915e569f884d22255f9%7Cb4dba665a5e44d9f895f894e92735820%7C4c9f125b-c827-4509-adc6-3777abfc8e3c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.06-18.33.46:987][754]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.06-18.33.46:994][754]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.06-18.33.46:994][754]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.06-18.33.46:995][754]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.06-18.33.46:995][754]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.06-18.33.46:996][754]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.06-18.33.46:996][754]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.06-18.33.46:996][754]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.06-18.33.47:015][754]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.06-18.33.47:016][754]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.06-18.33.47:016][754]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.06-18.33.47:021][754]LogExit: Exiting.
+[2018.03.06-18.33.47:094][754]Log file closed, 03/06/18 13:33:47
