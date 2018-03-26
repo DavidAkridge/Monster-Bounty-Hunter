@@ -1,4 +1,4 @@
-﻿Log file open, 03/26/18 18:17:42
+﻿Log file open, 03/26/18 19:03:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MonsterBountyHunter
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(118887079) SRandInit(118887079).
+LogInit: Display: RandInit(940438748) SRandInit(940438748).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.195541
+LogStats: Stats thread started at 0.166622
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,166 +196,1036 @@ LogInit: Base directory: D:/Unreal/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.26-22.17.45:007][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.26-22.17.45:007][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.26-22.17.45:046][  0]LogInit: Computer: DESKTOP-M61G1JU
-[2018.03.26-22.17.45:046][  0]LogInit: User: David
-[2018.03.26-22.17.45:046][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.26-22.17.45:046][  0]LogInit: High frequency timer resolution =3.416977 MHz
-[2018.03.26-22.17.45:047][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.26-22.17.45:047][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.26-22.17.45:047][  0]LogMemory: Process Physical Memory: 274.66 MB used, 274.66 MB peak
-[2018.03.26-22.17.45:047][  0]LogMemory: Process Virtual Memory: 271.70 MB used, 271.70 MB peak
-[2018.03.26-22.17.45:047][  0]LogMemory: Physical Memory: 4836.28 MB used,  11495.96 MB free, 16332.25 MB total
-[2018.03.26-22.17.45:047][  0]LogMemory: Virtual Memory: 683.91 MB used,  11495.96 MB free, 134217728.00 MB total
-[2018.03.26-22.17.45:312][  0]LogInit: Using OS detected language (en-US).
-[2018.03.26-22.17.45:312][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.26-22.17.45:372][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.26-22.17.45:835][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.26-22.17.48:901][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.26-22.17.48:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.03.26-22.17.48:942][  0]LogD3D11RHI:       2016/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.26-22.17.48:944][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.26-22.17.48:944][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.26-22.17.48:944][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.26-22.17.48:950][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.26-22.17.48:950][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.26-22.17.48:950][  0]LogWindows: EnumDisplayDevices:
-[2018.03.26-22.17.48:950][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.03.26-22.17.48:950][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.03.26-22.17.48:950][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.03.26-22.17.48:950][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.03.26-22.17.48:950][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.26-22.17.48:950][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.03.26-22.17.48:950][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.26-22.17.48:950][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.26-22.17.48:950][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
-[2018.03.26-22.17.48:979][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.26-22.17.48:990][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.26-22.17.49:038][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Intermediate/Shaders/WorkingDirectory/7448/).
-[2018.03.26-22.17.49:038][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/749DC6A54BB3D3ABCAEA0895F1079292/'.
-[2018.03.26-22.17.49:038][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.26-22.17.51:232][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.26-22.17.51:274][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.26-22.17.51:317][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.26-22.17.51:358][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.26-22.17.51:403][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.26-22.17.51:446][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.26-22.17.51:485][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.26-22.17.51:528][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.26-22.17.51:564][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.26-22.17.51:604][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.26-22.17.51:648][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.26-22.17.51:689][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.26-22.17.51:733][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.26-22.17.51:779][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.26-22.17.51:871][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.26-22.17.51:871][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.26-22.17.51:923][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.26-22.17.51:956][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.26-22.17.52:060][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.26-22.17.52:081][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.26-22.17.52:122][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.26-22.17.52:166][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.26-22.17.52:211][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.26-22.17.52:255][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.26-22.17.52:255][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.26-22.17.52:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.26-22.17.52:895][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.26-22.17.52:895][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.26-22.17.52:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.26-22.17.52:895][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.26-22.17.52:896][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.26-22.17.52:896][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.26-22.17.52:919][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.26-22.17.52:930][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.26-22.17.52:940][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.26-22.17.52:941][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.26-22.17.52:965][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.26-22.17.52:966][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.26-22.17.55:279][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.26-22.17.55:678][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.26-22.17.55:707][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.26-22.17.55:707][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.26-22.17.55:707][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.26-22.17.55:707][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.26-22.17.55:707][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.26-22.17.55:750][  0]LogNetVersion: MonsterBountyHunter , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1373798905)
-[2018.03.26-22.17.56:074][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2018.03.26-22.17.57:213][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.414847 seconds
-[2018.03.26-22.17.57:219][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.26-22.17.57:219][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.26-22.17.57:219][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.26-22.17.57:255][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.26-22.18.02:281][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.26-22.18.02:314][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.26-22.18.02:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.26-22.18.03:393][  0]SourceControl: Source control is disabled
-[2018.03.26-22.18.04:964][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.26-22.18.05:238][  0]LogOcInput: OculusInput pre-init called
-[2018.03.26-22.18.05:528][  0]LogEngine: Initializing Engine...
-[2018.03.26-22.18.05:530][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.26-22.18.05:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.26-22.18.05:913][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.26-22.18.06:070][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.26-22.18.06:085][  0]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.26-22.18.06:126][  0]LogInit: FAudioDevice initialized.
-[2018.03.26-22.18.06:229][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.26-22.18.06:238][  0]LogInit: Texture streaming: Enabled
-[2018.03.26-22.18.06:304][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.26-22.18.06:419][  0]LogInit: Transaction tracking system initialized
-[2018.03.26-22.18.06:648][  0]BlueprintLog: New page: Editor Load
-[2018.03.26-22.18.07:275][  0]LocalizationService: Localization service is disabled
-[2018.03.26-22.18.07:932][  0]LogConsoleResponse: Display: 
-[2018.03.26-22.18.08:398][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.26-22.18.08:398][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.26-22.18.08:398][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.26-22.18.08:807][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' took 0.04s
-[2018.03.26-22.18.09:379][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.26-22.18.09:382][  0]LightingResults: New page: Lighting Build
-[2018.03.26-22.18.09:412][  0]MapCheck: New page: Map Check
-[2018.03.26-22.18.09:412][  0]LightingResults: New page: Lighting Build
-[2018.03.26-22.18.09:654][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.03.26-22.18.09:662][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.26-22.18.09:675][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.26-22.18.09:711][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.028ms to complete.
-[2018.03.26-22.18.09:711][  0]LogFileHelpers: Loading map 'Template_Default' took 0.333
-[2018.03.26-22.18.09:933][  0]LogCollectionManager: Loaded 0 collections in 0.000810 seconds
-[2018.03.26-22.18.10:008][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Collections/' took 0.01s
-[2018.03.26-22.18.10:008][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Developers/David/Collections/' took 0.01s
-[2018.03.26-22.18.10:008][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Collections/' took 0.02s
-[2018.03.26-22.18.10:012][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.26-22.18.10:021][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2363 classes and 519 folders.
-[2018.03.26-22.18.10:078][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.26-22.18.11:149][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.26-22.18.11:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.26-22.18.11:320][  0]LogSlate: Took 0.006771 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.26-22.18.11:329][  0]LogSlate: Took 0.006717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.26-22.18.11:348][  0]LogSlate: Took 0.013413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.26-22.18.11:516][  0]LogRenderer: Reallocating scene render targets to support 1184x660 Format 10 NumSamples 1 (Frame:1).
-[2018.03.26-22.18.11:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.26-22.18.11:659][  0]LogLoad: (Engine Initialization) Total time: 30.56 seconds
-[2018.03.26-22.18.11:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.26-22.18.11:659][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.26-22.18.12:018][  0]SourceControl: On branch master
-[2018.03.26-22.18.12:018][  0]SourceControl: Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
-[2018.03.26-22.18.12:018][  0]SourceControl:   (use "git pull" to update your local branch)
-[2018.03.26-22.18.12:018][  0]SourceControl: Changes not staged for commit:
-[2018.03.26-22.18.12:018][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2018.03.26-22.18.12:018][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Config/DefaultInput.ini
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Content/Blueprints/AI_Enemy.uasset
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Content/Blueprints/TorchController.uasset
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Intermediate/CachedAssetRegistry.bin
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Intermediate/Config/CoalescedSourceConfigs/Input.ini
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/AutoScreenshot.png
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Autosaves/PackageRestoreData.json
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Config/Windows/Editor.ini
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.03.26-22.18.12:018][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Logs/MonsterBountyHunter.log
-[2018.03.26-22.18.12:018][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.03.26-22.18.12:019][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.26-22.18.12:211][  0]LogSlate: Took 0.011883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.26-22.18.13:263][  3]LogAssetRegistry: Asset discovery search completed in 17.2107 seconds
-[2018.03.26-22.18.13:269][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.26-22.18.13:269][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2018.03.26-23.03.37:060][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.26-23.03.37:061][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.26-23.03.37:071][  0]LogInit: Computer: DESKTOP-M61G1JU
+[2018.03.26-23.03.37:071][  0]LogInit: User: David
+[2018.03.26-23.03.37:071][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.26-23.03.37:072][  0]LogInit: High frequency timer resolution =3.416977 MHz
+[2018.03.26-23.03.37:072][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.26-23.03.37:072][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.26-23.03.37:072][  0]LogMemory: Process Physical Memory: 274.79 MB used, 274.79 MB peak
+[2018.03.26-23.03.37:072][  0]LogMemory: Process Virtual Memory: 271.85 MB used, 271.85 MB peak
+[2018.03.26-23.03.37:072][  0]LogMemory: Physical Memory: 6393.63 MB used,  9938.62 MB free, 16332.25 MB total
+[2018.03.26-23.03.37:072][  0]LogMemory: Virtual Memory: 683.91 MB used,  9938.62 MB free, 134217728.00 MB total
+[2018.03.26-23.03.37:164][  0]LogInit: Using OS detected language (en-US).
+[2018.03.26-23.03.37:164][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.26-23.03.37:166][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.26-23.03.37:561][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.26-23.03.37:756][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.26-23.03.37:801][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.03.26-23.03.37:801][  0]LogD3D11RHI:       2016/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.26-23.03.37:803][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.26-23.03.37:803][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.26-23.03.37:803][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.26-23.03.37:809][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.26-23.03.37:809][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.26-23.03.37:809][  0]LogWindows: EnumDisplayDevices:
+[2018.03.26-23.03.37:809][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.03.26-23.03.37:810][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.26-23.03.37:810][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.26-23.03.37:810][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.03.26-23.03.37:810][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.26-23.03.37:810][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.03.26-23.03.37:810][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.26-23.03.37:810][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.26-23.03.37:810][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.03.26-23.03.37:837][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.26-23.03.37:849][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.26-23.03.37:897][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Intermediate/Shaders/WorkingDirectory/11000/).
+[2018.03.26-23.03.37:897][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/David/AppData/Local/Temp/UnrealShaderWorkingDir/B382B1FB4CD65F5FEBA401B6A24F894B/'.
+[2018.03.26-23.03.37:897][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.26-23.03.38:731][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.26-23.03.38:767][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.26-23.03.38:803][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.26-23.03.38:839][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.26-23.03.38:875][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.26-23.03.38:911][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.26-23.03.38:948][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.26-23.03.38:983][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.26-23.03.39:013][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.26-23.03.39:048][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.26-23.03.39:083][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.26-23.03.39:119][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.26-23.03.39:153][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.26-23.03.39:188][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.26-23.03.39:259][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.26-23.03.39:259][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.26-23.03.39:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.26-23.03.39:322][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.26-23.03.39:390][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.26-23.03.39:410][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.26-23.03.39:445][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.26-23.03.39:480][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.26-23.03.39:515][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.26-23.03.39:551][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.26-23.03.39:551][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.26-23.03.39:841][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.26-23.03.39:904][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.26-23.03.39:904][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.26-23.03.39:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.26-23.03.39:904][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.26-23.03.39:904][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.26-23.03.39:904][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.26-23.03.39:919][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.26-23.03.39:932][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.26-23.03.39:942][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.26-23.03.39:942][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.26-23.03.39:942][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.26-23.03.39:942][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.26-23.03.40:266][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.26-23.03.40:506][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.26-23.03.40:533][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.26-23.03.40:533][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.26-23.03.40:533][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.26-23.03.40:533][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.26-23.03.40:533][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.26-23.03.40:554][  0]LogNetVersion: MonsterBountyHunter , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1373798905)
+[2018.03.26-23.03.40:687][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.03.26-23.03.41:067][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.044864 seconds
+[2018.03.26-23.03.41:072][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.26-23.03.41:072][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.26-23.03.41:072][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.26-23.03.41:103][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.26-23.03.43:107][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.26-23.03.43:137][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.26-23.03.43:602][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.26-23.03.43:894][  0]SourceControl: Source control is disabled
+[2018.03.26-23.03.45:017][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.26-23.03.45:191][  0]LogOcInput: OculusInput pre-init called
+[2018.03.26-23.03.45:388][  0]LogEngine: Initializing Engine...
+[2018.03.26-23.03.45:390][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.26-23.03.45:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.26-23.03.45:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.26-23.03.45:652][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.26-23.03.45:665][  0]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.03.45:686][  0]LogInit: FAudioDevice initialized.
+[2018.03.26-23.03.45:760][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/David/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.26-23.03.45:767][  0]LogInit: Texture streaming: Enabled
+[2018.03.26-23.03.45:831][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.26-23.03.45:916][  0]LogInit: Transaction tracking system initialized
+[2018.03.26-23.03.46:121][  0]BlueprintLog: New page: Editor Load
+[2018.03.26-23.03.46:687][  0]LocalizationService: Localization service is disabled
+[2018.03.26-23.03.47:240][  0]LogConsoleResponse: Display: 
+[2018.03.26-23.03.47:367][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.26-23.03.47:367][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.26-23.03.47:367][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.26-23.03.47:914][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' took 0.02s
+[2018.03.26-23.03.48:152][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.03.48:153][  0]LightingResults: New page: Lighting Build
+[2018.03.26-23.03.48:179][  0]MapCheck: New page: Map Check
+[2018.03.26-23.03.48:179][  0]LightingResults: New page: Lighting Build
+[2018.03.26-23.03.48:324][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.26-23.03.48:329][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.03.48:339][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.03.48:372][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.614ms to complete.
+[2018.03.26-23.03.48:372][  0]LogFileHelpers: Loading map 'Template_Default' took 0.220
+[2018.03.26-23.03.48:501][  0]LogCollectionManager: Loaded 0 collections in 0.000844 seconds
+[2018.03.26-23.03.48:564][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Collections/' took 0.01s
+[2018.03.26-23.03.48:564][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Developers/David/Collections/' took 0.01s
+[2018.03.26-23.03.48:564][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Collections/' took 0.01s
+[2018.03.26-23.03.48:564][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.26-23.03.48:573][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2363 classes and 519 folders.
+[2018.03.26-23.03.48:617][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.26-23.03.48:645][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.26-23.03.48:674][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.26-23.03.48:732][  0]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.26-23.03.48:734][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.26-23.03.48:740][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.26-23.03.48:826][  0]LogRenderer: Reallocating scene render targets to support 1184x660 Format 10 NumSamples 1 (Frame:1).
+[2018.03.26-23.03.48:946][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.26-23.03.48:946][  0]LogLoad: (Engine Initialization) Total time: 13.49 seconds
+[2018.03.26-23.03.48:946][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.26-23.03.48:946][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.26-23.03.48:955][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.26-23.03.48:976][  0]SourceControl: On branch master
+[2018.03.26-23.03.48:976][  0]SourceControl: Your branch is ahead of 'origin/master' by 2 commits.
+[2018.03.26-23.03.48:976][  0]SourceControl:   (use "git push" to publish your local commits)
+[2018.03.26-23.03.48:976][  0]SourceControl: Changes to be committed:
+[2018.03.26-23.03.48:976][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2018.03.26-23.03.48:976][  0]SourceControl: 	new file:   MonsterBountyHunter/Content/Maps/MainMenu.umap
+[2018.03.26-23.03.48:976][  0]SourceControl: 	new file:   MonsterBountyHunter/Content/Menu_UI/MainMenu.uasset
+[2018.03.26-23.03.48:976][  0]SourceControl: 	new file:   MonsterBountyHunter/Content/Menu_UI/Options.uasset
+[2018.03.26-23.03.48:976][  0]SourceControl: 	new file:   MonsterBountyHunter/Content/Menu_UI/Options_2.uasset
+[2018.03.26-23.03.48:976][  0]SourceControl: Changes not staged for commit:
+[2018.03.26-23.03.48:976][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.03.26-23.03.48:976][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Content/Maps/Level1.umap
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Content/Maps/MainMenu.umap
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Content/Maps/TownBoard.umap
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Content/Menu_UI/MainMenu.uasset
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Intermediate/AssetRegistryCache/311563bb.bin
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Intermediate/CachedAssetRegistry.bin
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/AutoScreenshot.png
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Config/Windows/Editor.ini
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.26-23.03.48:976][  0]SourceControl: 	modified:   MonsterBountyHunter/Saved/Logs/MonsterBountyHunter.log
+[2018.03.26-23.03.48:977][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.26-23.03.49:062][  3]LogAssetRegistry: Asset discovery search completed in 8.3963 seconds
+[2018.03.26-23.03.49:067][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.26-23.03.49:067][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2018.03.26-23.03.52:330][391]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.26-23.03.55:638][783]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.26-23.03.55:667][783]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.03.55:681][783]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.03.55:681][783]LightingResults: New page: Lighting Build
+[2018.03.26-23.03.55:681][783]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.03.26-23.03.55:682][783]MapCheck: New page: Map Check
+[2018.03.26-23.03.55:682][783]LightingResults: New page: Lighting Build
+[2018.03.26-23.03.55:738][783]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.03.55:784][783]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.03.55:818][783]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33.694ms to complete.
+[2018.03.26-23.03.55:818][783]LogFileHelpers: Loading map 'MainMenu' took 0.139
+[2018.03.26-23.04.00:878][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.00:878][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.04.00:879][369]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:04:00 PM)
+[2018.03.26-23.04.00:879][369]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.04.00:880][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000850s)
+[2018.03.26-23.04.00:880][369]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.04.00:880][369]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2018.03.26-23.04.00:880][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001549s)
+[2018.03.26-23.04.00:897][369]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.04.00:904][369]LogInit: FAudioDevice initialized.
+[2018.03.26-23.04.01:095][369]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.04.01:097][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.04.01
+[2018.03.26-23.04.01:097][369]LogWorld: Bringing up level for play took: 0.000470
+[2018.03.26-23.04.01:124][369]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.03.26-23.04.01:131][369]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.09
+[2018.03.26-23.04.01:131][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.01:153][369]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.26-23.04.02:694][549]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.04.02:694][549]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.04.05:214][549]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.04.05:214][549]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.04.05:217][549]LogMaterial: Warning: Material /Game/Art/InfinityBladeGrassLands/Environments/Misc/Exo_Deco02/Materials/m_Flooded_ConcRail1.m_Flooded_ConcRail1 missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2018.03.26-23.04.05:217][549]LogMaterial: Warning:      The material will recompile every editor launch until resaved.
+[2018.03.26-23.04.05:220][549]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.04.05
+[2018.03.26-23.04.05:221][549]LogWorld: Bringing up level for play took: 0.005936
+[2018.03.26-23.04.05:222][549]LogLoad: Took 2.528927 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.04.09:254][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.09:303][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.36:974][338]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.26-23.04.37:001][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.37:001][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.04.37:001][338]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:04:37 PM)
+[2018.03.26-23.04.37:001][338]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.04.37:002][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000785s)
+[2018.03.26-23.04.37:003][338]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.04.37:003][338]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2018.03.26-23.04.37:003][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001530s)
+[2018.03.26-23.04.37:021][338]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.04.37:027][338]LogInit: FAudioDevice initialized.
+[2018.03.26-23.04.37:066][338]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.04.37:067][338]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.04.37
+[2018.03.26-23.04.37:067][338]LogWorld: Bringing up level for play took: 0.000503
+[2018.03.26-23.04.37:072][338]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.032
+[2018.03.26-23.04.37:073][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.41:403][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.41:433][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.43:657][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.43:657][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.04.43:657][106]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:04:43 PM)
+[2018.03.26-23.04.43:657][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.04.43:658][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000763s)
+[2018.03.26-23.04.43:658][106]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.04.43:659][106]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2018.03.26-23.04.43:659][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001457s)
+[2018.03.26-23.04.43:676][106]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.04.43:683][106]LogInit: FAudioDevice initialized.
+[2018.03.26-23.04.43:714][106]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.04.43:715][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.04.43
+[2018.03.26-23.04.43:715][106]LogWorld: Bringing up level for play took: 0.000399
+[2018.03.26-23.04.43:718][106]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.677
+[2018.03.26-23.04.43:718][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.44:581][207]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.04.44:581][207]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.04.44:856][207]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.04.44:857][207]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.04.44:861][207]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.04.44
+[2018.03.26-23.04.44:862][207]LogWorld: Bringing up level for play took: 0.004304
+[2018.03.26-23.04.44:864][207]LogLoad: Took 0.282721 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.04.46:678][419]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.46:712][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.04.57:175][452]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.26-23.04.57:788][452]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.26-23.04.57:788][452]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.26-23.05.01:447][745]LogSlate: Took 0.002037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.03.26-23.05.06:761][160]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.26-23.05.22:427][729]LogEditorTransaction: Undo Paste clipboard contents
+[2018.03.26-23.05.49:025][638]BlueprintLog: New page: Compile Options
+[2018.03.26-23.05.49:606][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu_UI/Options" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Menu_UI/Options.uasset" SILENT=true
+[2018.03.26-23.05.49:639][689]LogSavePackage: Save=24.98ms
+[2018.03.26-23.05.49:639][689]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Options5D9C2C964969C1F309BB0EB7938B9A91.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Menu_UI/Options.uasset'
+[2018.03.26-23.05.49:641][689]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Menu_UI/Options.uasset
+[2018.03.26-23.05.55:554][384]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.05.55:589][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.05.55:589][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.05.55:589][384]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:05:55 PM)
+[2018.03.26-23.05.55:589][384]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.05.55:590][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000801s)
+[2018.03.26-23.05.55:591][384]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.05.55:591][384]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2018.03.26-23.05.55:591][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001700s)
+[2018.03.26-23.05.55:618][384]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.05.55:625][384]LogInit: FAudioDevice initialized.
+[2018.03.26-23.05.55:657][384]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.05.55:658][384]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.05.55
+[2018.03.26-23.05.55:658][384]LogWorld: Bringing up level for play took: 0.000457
+[2018.03.26-23.05.55:661][384]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.62
+[2018.03.26-23.05.55:661][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.05.59:054][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.05.59:087][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.06.00:154][914]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.06.00:179][914]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.06.00:179][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.06.00:179][914]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:06:00 PM)
+[2018.03.26-23.06.00:179][914]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.06.00:180][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000845s)
+[2018.03.26-23.06.00:180][914]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.06.00:181][914]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2018.03.26-23.06.00:181][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001625s)
+[2018.03.26-23.06.00:204][914]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.06.00:211][914]LogInit: FAudioDevice initialized.
+[2018.03.26-23.06.00:244][914]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.06.00:245][914]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.06.00
+[2018.03.26-23.06.00:245][914]LogWorld: Bringing up level for play took: 0.000399
+[2018.03.26-23.06.00:248][914]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.793
+[2018.03.26-23.06.00:248][914]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.06.00:729][971]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.06.00:729][971]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.06.01:016][971]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.06.01:016][971]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.06.01:020][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.06.01
+[2018.03.26-23.06.01:021][971]LogWorld: Bringing up level for play took: 0.003926
+[2018.03.26-23.06.01:022][971]LogLoad: Took 0.293390 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.06.03:155][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.06.03:191][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.07.05:716][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TorchController" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset" SILENT=true
+[2018.03.26-23.07.05:789][447]LogSavePackage: Save=63.44ms
+[2018.03.26-23.07.05:789][447]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/TorchControllerA39C472F4D8B26C5547F7689754C6E64.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset'
+[2018.03.26-23.07.05:790][447]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset
+[2018.03.26-23.07.12:548][210]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.03.26-23.07.12:548][210]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.03.26-23.07.12:548][210]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.03.26-23.07.12:548][210]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.03.26-23.07.12:549][210]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.03.26-23.07.12:556][210]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0217.10] Compile of Ue4ASP_Character successful, but with 5 Warning(s) [in 31 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.03.26-23.07.13:307][210]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.07.13:477][210]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.07.13:477][210]LightingResults: New page: Lighting Build
+[2018.03.26-23.07.13:477][210]LoadErrors: New page: Loading map: Level1.umap
+[2018.03.26-23.07.13:478][210]MapCheck: New page: Map Check
+[2018.03.26-23.07.13:478][210]LightingResults: New page: Lighting Build
+[2018.03.26-23.07.13:655][210]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.07.13:715][210]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.07.13:792][210]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.268ms to complete.
+[2018.03.26-23.07.13:792][210]LogFileHelpers: Loading map 'Level1' took 0.316
+[2018.03.26-23.07.22:129][125]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
+[2018.03.26-23.07.55:611][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.26-23.07.56:226][886]LogSavePackage: Save=585.78ms
+[2018.03.26-23.07.56:226][886]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Level1C37E664E4839CE7D207ED9BB25F721A9.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap'
+[2018.03.26-23.07.56:228][886]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap
+[2018.03.26-23.07.56:265][886]LogFileHelpers: Saving map 'Level1' took 0.731
+[2018.03.26-23.07.56:727][937]BlueprintLog: New page: Compile Level1
+[2018.03.26-23.07.59:205][209]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.07.59:236][209]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2018.03.26-23.07.59:236][209]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.26-23.07.59:256][209]LogPlayLevel: [PlayLevel] Compiling TorchController before play...
+[2018.03.26-23.07.59:479][209]LogPlayLevel: PlayLevel: Blueprint regeneration took 242 ms (1 blueprints)
+[2018.03.26-23.07.59:479][209]PIE: New page: PIE session: Level1 (Mar 26, 2018, 3:07:59 PM)
+[2018.03.26-23.07.59:479][209]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2018.03.26-23.07.59:501][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021786s)
+[2018.03.26-23.07.59:501][209]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.07.59:502][209]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2018.03.26-23.07.59:502][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.023322s)
+[2018.03.26-23.07.59:528][209]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.07.59:535][209]LogInit: FAudioDevice initialized.
+[2018.03.26-23.07.59:568][209]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.07.59:577][209]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.07.59
+[2018.03.26-23.07.59:579][209]LogWorld: Bringing up level for play took: 0.010642
+[2018.03.26-23.07.59:581][209]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.541
+[2018.03.26-23.07.59:582][209]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2018.03.26-23.08.01:077][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2018.03.26-23.08.01:113][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Maps/Level1.Level1_C' with ClassGeneratedBy '/Game/Maps/Level1.Level1:PersistentLevel.Level1'
+[2018.03.26-23.08.02:655][551]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.08.04:911][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.26-23.08.05:435][551]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.26-23.08.05:500][551]LogSavePackage: Save=567.87ms
+[2018.03.26-23.08.05:500][551]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Level171F3004749AD2EA6B30C66A60429C9E4.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap'
+[2018.03.26-23.08.05:502][551]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap
+[2018.03.26-23.08.05:538][551]LogFileHelpers: Saving map 'Level1' took 0.702
+[2018.03.26-23.08.05:539][551]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.08.05:539][551]LightingResults: New page: Lighting Build
+[2018.03.26-23.08.05:540][551]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.03.26-23.08.05:543][551]MapCheck: New page: Map Check
+[2018.03.26-23.08.05:543][551]LightingResults: New page: Lighting Build
+[2018.03.26-23.08.05:663][551]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.08.05:716][551]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.08.05:789][551]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.367ms to complete.
+[2018.03.26-23.08.05:789][551]LogFileHelpers: Loading map 'MainMenu' took 0.250
+[2018.03.26-23.08.07:459][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.08.07:485][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.08.07:486][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.08.07:486][748]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:08:07 PM)
+[2018.03.26-23.08.07:486][748]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.08.07:487][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000949s)
+[2018.03.26-23.08.07:487][748]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.08.07:487][748]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2018.03.26-23.08.07:488][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001846s)
+[2018.03.26-23.08.07:513][748]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.08.07:519][748]LogInit: FAudioDevice initialized.
+[2018.03.26-23.08.07:552][748]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.08.07:553][748]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.08.07
+[2018.03.26-23.08.07:553][748]LogWorld: Bringing up level for play took: 0.000508
+[2018.03.26-23.08.07:555][748]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.515
+[2018.03.26-23.08.07:555][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.08.09:941][ 32]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.08.09:941][ 32]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.08.10:688][ 32]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.08.10:689][ 32]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.08.10:693][ 32]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.08.10
+[2018.03.26-23.08.10:693][ 32]LogWorld: Bringing up level for play took: 0.004089
+[2018.03.26-23.08.10:695][ 32]LogLoad: Took 0.753916 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.08.35:181][953]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.08.35:181][953]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.08.36:016][953]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.08.36:016][953]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.08.36:033][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.08.36
+[2018.03.26-23.08.36:035][953]LogWorld: Bringing up level for play took: 0.017968
+[2018.03.26-23.08.36:037][953]LogLoad: Took 0.856149 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.08.39:433][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.08.39:469][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.08.43:625][814]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.08.43:649][814]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/TownBoard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.08.43:649][814]LightingResults: New page: Lighting Build
+[2018.03.26-23.08.43:650][814]LoadErrors: New page: Loading map: TownBoard.umap
+[2018.03.26-23.08.43:651][814]MapCheck: New page: Map Check
+[2018.03.26-23.08.43:651][814]LightingResults: New page: Lighting Build
+[2018.03.26-23.08.43:798][814]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.08.43:854][814]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.08.43:932][814]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.459ms to complete.
+[2018.03.26-23.08.43:932][814]LogFileHelpers: Loading map 'TownBoard' took 0.284
+[2018.03.26-23.12.01:040][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TorchController" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset" SILENT=true
+[2018.03.26-23.12.01:108][593]LogSavePackage: Save=64.21ms
+[2018.03.26-23.12.01:108][593]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/TorchController320539724FE50DD6B3F3C2AD2C955165.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset'
+[2018.03.26-23.12.01:110][593]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset
+[2018.03.26-23.12.05:450][ 94]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.12.05:474][ 94]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.12.05:474][ 94]LightingResults: New page: Lighting Build
+[2018.03.26-23.12.05:474][ 94]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.03.26-23.12.05:531][ 94]MapCheck: New page: Map Check
+[2018.03.26-23.12.05:531][ 94]LightingResults: New page: Lighting Build
+[2018.03.26-23.12.05:707][ 94]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.12.05:767][ 94]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.12.05:844][ 94]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.237ms to complete.
+[2018.03.26-23.12.05:844][ 94]LogFileHelpers: Loading map 'MainMenu' took 0.371
+[2018.03.26-23.12.07:316][268]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.12.07:346][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.12.07:346][268]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.26-23.12.07:360][268]LogPlayLevel: [PlayLevel] Compiling TorchController before play...
+[2018.03.26-23.12.07:374][268]LogBlueprint: Error: [Compiler TorchController] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.03.26-23.12.07:378][268]LogBlueprint: Warning: [Compiler TorchController] [0511.92] Compile of TorchController failed. 1 Fatal Issue(s) 0 Warning(s) [in 22 ms] (/Game/Blueprints/TorchController.TorchController)
+[2018.03.26-23.12.07:577][268]LogPlayLevel: PlayLevel: Blueprint regeneration took 231 ms (1 blueprints)
+[2018.03.26-23.12.07:577][268]BlueprintLog: Blueprint TorchController failed to compile
+[2018.03.26-23.12.11:759][268]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:12:11 PM)
+[2018.03.26-23.12.11:759][268]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.12.11:760][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000939s)
+[2018.03.26-23.12.11:760][268]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.12.11:760][268]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2018.03.26-23.12.11:760][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001722s)
+[2018.03.26-23.12.11:789][268]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.12.11:796][268]LogInit: FAudioDevice initialized.
+[2018.03.26-23.12.11:831][268]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.12.11:832][268]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.12.11
+[2018.03.26-23.12.11:832][268]LogWorld: Bringing up level for play took: 0.000449
+[2018.03.26-23.12.11:834][268]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 4.794
+[2018.03.26-23.12.11:835][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.12.17:163][903]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.12.17:164][903]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.12.17:305][903]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.12.17:306][903]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.12.17:311][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.12.17
+[2018.03.26-23.12.17:311][903]LogWorld: Bringing up level for play took: 0.005316
+[2018.03.26-23.12.17:313][903]LogLoad: Took 0.149342 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.12.54:957][397]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.12.54:957][397]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.12.55:467][397]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.12.55:467][397]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.12.55:482][397]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.12.55
+[2018.03.26-23.12.55:484][397]LogWorld: Bringing up level for play took: 0.016000
+[2018.03.26-23.12.55:485][397]LogLoad: Took 0.528003 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.13.01:954][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.01:988][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.09:051][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TorchController" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset" SILENT=true
+[2018.03.26-23.13.09:121][987]LogSavePackage: Save=61.43ms
+[2018.03.26-23.13.09:121][987]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/TorchController222A5AFE4467A6F8D84BA5A9D3678398.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset'
+[2018.03.26-23.13.09:123][987]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Blueprints/TorchController.uasset
+[2018.03.26-23.13.10:756][182]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.13.10:786][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.10:786][182]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.26-23.13.10:800][182]LogPlayLevel: [PlayLevel] Compiling TorchController before play...
+[2018.03.26-23.13.11:019][182]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
+[2018.03.26-23.13.11:019][182]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:13:11 PM)
+[2018.03.26-23.13.11:019][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.13.11:020][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000903s)
+[2018.03.26-23.13.11:021][182]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.13.11:021][182]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2018.03.26-23.13.11:021][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001648s)
+[2018.03.26-23.13.11:050][182]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.13.11:056][182]LogInit: FAudioDevice initialized.
+[2018.03.26-23.13.11:092][182]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.11:093][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.13.11
+[2018.03.26-23.13.11:093][182]LogWorld: Bringing up level for play took: 0.000408
+[2018.03.26-23.13.11:095][182]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.054
+[2018.03.26-23.13.11:095][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.12:193][313]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.13.12:193][313]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.13.12:489][313]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.13.12:489][313]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.12:494][313]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.13.12
+[2018.03.26-23.13.12:494][313]LogWorld: Bringing up level for play took: 0.004213
+[2018.03.26-23.13.12:496][313]LogLoad: Took 0.302562 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.13.17:491][907]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.13.17:491][907]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.13.18:007][907]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.13.18:007][907]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.18:023][907]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.13.18
+[2018.03.26-23.13.18:024][907]LogWorld: Bringing up level for play took: 0.016345
+[2018.03.26-23.13.18:027][907]LogLoad: Took 0.536194 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.13.28:476][137]LogBlueprintUserMessages: [FindSearchPoints_C_0] Test
+[2018.03.26-23.13.29:681][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.29:730][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.32:305][586]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.13.32:334][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.32:334][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.13.32:335][586]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:13:32 PM)
+[2018.03.26-23.13.32:335][586]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.13.32:336][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000925s)
+[2018.03.26-23.13.32:336][586]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.13.32:336][586]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2018.03.26-23.13.32:336][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001669s)
+[2018.03.26-23.13.32:363][586]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.13.32:370][586]LogInit: FAudioDevice initialized.
+[2018.03.26-23.13.32:401][586]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.32:402][586]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.13.32
+[2018.03.26-23.13.32:402][586]LogWorld: Bringing up level for play took: 0.000473
+[2018.03.26-23.13.32:405][586]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.636
+[2018.03.26-23.13.32:405][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.34:419][825]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.13.34:419][825]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.13.34:712][825]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.13.34:712][825]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.34:716][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.13.34
+[2018.03.26-23.13.34:717][825]LogWorld: Bringing up level for play took: 0.003934
+[2018.03.26-23.13.34:718][825]LogLoad: Took 0.299124 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.13.38:755][302]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.13.38:755][302]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.13.39:251][302]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.13.39:252][302]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.39:268][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.13.39
+[2018.03.26-23.13.39:269][302]LogWorld: Bringing up level for play took: 0.017081
+[2018.03.26-23.13.39:271][302]LogLoad: Took 0.516109 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.13.42:035][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.42:069][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.43:068][742]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.13.43:099][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.43:099][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.13.43:099][742]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:13:43 PM)
+[2018.03.26-23.13.43:099][742]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.13.43:100][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000938s)
+[2018.03.26-23.13.43:100][742]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.13.43:101][742]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2018.03.26-23.13.43:101][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001828s)
+[2018.03.26-23.13.43:129][742]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.13.43:135][742]LogInit: FAudioDevice initialized.
+[2018.03.26-23.13.43:170][742]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.43:171][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.13.43
+[2018.03.26-23.13.43:171][742]LogWorld: Bringing up level for play took: 0.000465
+[2018.03.26-23.13.43:174][742]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.133
+[2018.03.26-23.13.43:174][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.13.43:986][837]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.13.43:987][837]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.13.44:280][837]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.13.44:280][837]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.44:284][837]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.13.44
+[2018.03.26-23.13.44:285][837]LogWorld: Bringing up level for play took: 0.004268
+[2018.03.26-23.13.44:286][837]LogLoad: Took 0.300102 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.13.50:124][530]LogNet: Browse: /Game/Maps/SelfMadeInfinity
+[2018.03.26-23.13.50:124][530]LogLoad: LoadMap: /Game/Maps/SelfMadeInfinity
+[2018.03.26-23.13.51:501][530]LogAIModule: Creating AISystem for world SelfMadeInfinity
+[2018.03.26-23.13.51:501][530]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.51:508][530]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SelfMadeInfinity.SelfMadeInfinity up for play (max tick rate 0) at 2018.03.26-19.13.51
+[2018.03.26-23.13.51:508][530]LogBlueprintUserMessages: [AI_Enemy_204] I AM HITTING YOU
+[2018.03.26-23.13.51:508][530]LogWorld: Bringing up level for play took: 0.006228
+[2018.03.26-23.13.51:510][530]LogLoad: Took 1.385667 seconds to LoadMap(/Game/Maps/SelfMadeInfinity)
+[2018.03.26-23.13.51:528][531]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082384 > MaxSimulationTimeStep (0.050) for 'TorchController_C_0', movement 'Walking'
+[2018.03.26-23.13.52:254][615]LogBlueprintUserMessages: [AI_Enemy_204] I AM HITTING YOU
+[2018.03.26-23.13.52:412][634]LogBlueprintUserMessages: [AI_Enemy_204] I AM HITTING YOU
+[2018.03.26-23.13.52:437][637]LogBlueprintUserMessages: [AI_Enemy_204] I AM HITTING YOU
+[2018.03.26-23.13.53:901][811]LogBlueprintUserMessages: [AI_Enemy_204] I AM HITTING YOU
+[2018.03.26-23.13.53:909][812]LogBlueprintUserMessages: [AI_Enemy_204] I AM HITTING YOU
+[2018.03.26-23.13.53:918][813]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.13.53:918][813]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.13.54:205][813]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.13.54:205][813]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.13.54:209][813]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.13.54
+[2018.03.26-23.13.54:210][813]LogWorld: Bringing up level for play took: 0.004107
+[2018.03.26-23.13.54:211][813]LogLoad: Took 0.293021 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.14.03:940][970]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.14.03:974][970]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.14.05:326][ 74]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.14.05:363][ 74]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.14.05:363][ 74]LightingResults: New page: Lighting Build
+[2018.03.26-23.14.05:364][ 74]LoadErrors: New page: Loading map: Level1.umap
+[2018.03.26-23.14.05:364][ 74]MapCheck: New page: Map Check
+[2018.03.26-23.14.05:364][ 74]LightingResults: New page: Lighting Build
+[2018.03.26-23.14.05:716][ 74]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.14.05:780][ 74]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.14.05:861][ 74]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.898ms to complete.
+[2018.03.26-23.14.05:861][ 74]LogFileHelpers: Loading map 'Level1' took 0.498
+[2018.03.26-23.14.41:635][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.26-23.14.42:236][702]LogSavePackage: Save=572.34ms
+[2018.03.26-23.14.42:236][702]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Level1E82CA72A42BFE86E70E4BB8322B788E1.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap'
+[2018.03.26-23.14.42:238][702]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap
+[2018.03.26-23.14.42:275][702]LogFileHelpers: Saving map 'Level1' took 0.720
+[2018.03.26-23.14.47:728][343]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.14.47:751][343]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.14.47:751][343]LightingResults: New page: Lighting Build
+[2018.03.26-23.14.47:751][343]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.03.26-23.14.47:803][343]MapCheck: New page: Map Check
+[2018.03.26-23.14.47:803][343]LightingResults: New page: Lighting Build
+[2018.03.26-23.14.48:024][343]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.14.48:083][343]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.14.48:162][343]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.011ms to complete.
+[2018.03.26-23.14.48:162][343]LogFileHelpers: Loading map 'MainMenu' took 0.412
+[2018.03.26-23.14.48:948][432]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.14.48:977][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.14.48:977][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.14.48:977][432]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:14:48 PM)
+[2018.03.26-23.14.48:977][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.14.48:978][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000785s)
+[2018.03.26-23.14.48:978][432]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.14.48:978][432]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2018.03.26-23.14.48:979][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001521s)
+[2018.03.26-23.14.49:006][432]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.14.49:012][432]LogInit: FAudioDevice initialized.
+[2018.03.26-23.14.49:041][432]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.14.49:042][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.14.49
+[2018.03.26-23.14.49:042][432]LogWorld: Bringing up level for play took: 0.000508
+[2018.03.26-23.14.49:045][432]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.004
+[2018.03.26-23.14.49:045][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.14.49:794][521]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.14.49:794][521]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.14.49:975][521]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.14.49:975][521]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.14.49:980][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.14.49
+[2018.03.26-23.14.49:980][521]LogWorld: Bringing up level for play took: 0.004215
+[2018.03.26-23.14.49:982][521]LogLoad: Took 0.187395 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.14.53:223][896]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.14.53:223][896]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.14.53:943][896]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.14.53:944][896]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.14.53:960][896]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.14.53
+[2018.03.26-23.14.53:961][896]LogWorld: Bringing up level for play took: 0.017207
+[2018.03.26-23.14.53:963][896]PIE: Error: SetInputMode_GameOnly expects a valid player controller as target
+[2018.03.26-23.14.53:963][896]LogLoad: Took 0.739565 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.15.01:375][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.15.01:411][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.15.11:920][962]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.15.11:960][962]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.15.11:961][962]LightingResults: New page: Lighting Build
+[2018.03.26-23.15.11:961][962]LoadErrors: New page: Loading map: Level1.umap
+[2018.03.26-23.15.11:962][962]MapCheck: New page: Map Check
+[2018.03.26-23.15.11:962][962]LightingResults: New page: Lighting Build
+[2018.03.26-23.15.12:393][962]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.15.12:457][962]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.15.12:539][962]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.082ms to complete.
+[2018.03.26-23.15.12:539][962]LogFileHelpers: Loading map 'Level1' took 0.580
+[2018.03.26-23.15.20:807][796]BlueprintLog: New page: Compile Level1
+[2018.03.26-23.15.21:783][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.26-23.15.22:380][863]LogSavePackage: Save=574.89ms
+[2018.03.26-23.15.22:381][863]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Level13BFB8334410BE010A904E1943898FD23.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap'
+[2018.03.26-23.15.22:383][863]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/Level1.umap
+[2018.03.26-23.15.22:420][863]LogFileHelpers: Saving map 'Level1' took 0.714
+[2018.03.26-23.15.27:497][410]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.15.27:521][410]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.15.27:521][410]LightingResults: New page: Lighting Build
+[2018.03.26-23.15.27:522][410]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.03.26-23.15.27:572][410]MapCheck: New page: Map Check
+[2018.03.26-23.15.27:572][410]LightingResults: New page: Lighting Build
+[2018.03.26-23.15.27:832][410]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.15.27:887][410]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.15.27:968][410]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.801ms to complete.
+[2018.03.26-23.15.27:968][410]LogFileHelpers: Loading map 'MainMenu' took 0.448
+[2018.03.26-23.15.28:763][500]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.15.28:792][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.15.28:792][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.15.28:792][500]PIE: New page: PIE session: MainMenu (Mar 26, 2018, 3:15:28 PM)
+[2018.03.26-23.15.28:792][500]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.03.26-23.15.28:793][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000793s)
+[2018.03.26-23.15.28:793][500]LogAIModule: Creating AISystem for world MainMenu
+[2018.03.26-23.15.28:794][500]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2018.03.26-23.15.28:794][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001520s)
+[2018.03.26-23.15.28:821][500]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.15.28:827][500]LogInit: FAudioDevice initialized.
+[2018.03.26-23.15.28:857][500]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.15.28:858][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.03.26-19.15.28
+[2018.03.26-23.15.28:858][500]LogWorld: Bringing up level for play took: 0.000426
+[2018.03.26-23.15.28:860][500]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.181
+[2018.03.26-23.15.28:860][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.15.29:567][584]LogNet: Browse: /Game/Maps/TownBoard
+[2018.03.26-23.15.29:567][584]LogLoad: LoadMap: /Game/Maps/TownBoard
+[2018.03.26-23.15.29:747][584]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.15.29:748][584]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.15.29:752][584]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.15.29
+[2018.03.26-23.15.29:752][584]LogWorld: Bringing up level for play took: 0.004064
+[2018.03.26-23.15.29:754][584]LogLoad: Took 0.186833 seconds to LoadMap(/Game/Maps/TownBoard)
+[2018.03.26-23.15.31:932][833]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.15.31:932][833]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.15.32:641][833]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.15.32:641][833]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.15.32:658][833]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.15.32
+[2018.03.26-23.15.32:659][833]LogWorld: Bringing up level for play took: 0.016839
+[2018.03.26-23.15.32:661][833]LogLoad: Took 0.728692 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.15.35:466][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.15.35:500][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.03.26-23.15.38:718][510]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.15.38:744][510]Cmd: MAP LOAD FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/TownBoard.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.26-23.15.38:744][510]LightingResults: New page: Lighting Build
+[2018.03.26-23.15.38:745][510]LoadErrors: New page: Loading map: TownBoard.umap
+[2018.03.26-23.15.38:745][510]MapCheck: New page: Map Check
+[2018.03.26-23.15.38:746][510]LightingResults: New page: Lighting Build
+[2018.03.26-23.15.39:023][510]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.26-23.15.39:081][510]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.26-23.15.39:161][510]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.995ms to complete.
+[2018.03.26-23.15.39:161][510]LogFileHelpers: Loading map 'TownBoard' took 0.418
+[2018.03.26-23.15.49:658][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TownBoard" FILE="../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/TownBoard.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.26-23.15.49:948][586]LogSavePackage: Save=262.80ms
+[2018.03.26-23.15.49:948][586]LogSavePackage: Moving '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/TownBoard0218263447523BD32CFC859F42525751.tmp' to '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/TownBoard.umap'
+[2018.03.26-23.15.49:950][586]LogSavePackage: Display: Finished SavePackage ../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Maps/TownBoard.umap
+[2018.03.26-23.15.49:987][586]LogFileHelpers: Saving map 'TownBoard' took 0.410
+[2018.03.26-23.15.54:213][ 71]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.26-23.15.54:242][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TownBoard.TownBoard:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard' with GeneratedClass '/Game/Maps/TownBoard.TownBoard_C' with ClassGeneratedBy '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard'
+[2018.03.26-23.15.54:242][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.26-23.15.54:242][ 71]PIE: New page: PIE session: TownBoard (Mar 26, 2018, 3:15:54 PM)
+[2018.03.26-23.15.54:242][ 71]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TownBoard
+[2018.03.26-23.15.54:249][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007026s)
+[2018.03.26-23.15.54:250][ 71]LogAIModule: Creating AISystem for world TownBoard
+[2018.03.26-23.15.54:250][ 71]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2018.03.26-23.15.54:250][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TownBoard.TownBoard to /Game/Maps/UEDPIE_0_TownBoard.TownBoard (0.008037s)
+[2018.03.26-23.15.54:279][ 71]LogInit: XAudio2 using 'VX2270 SERIES-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.26-23.15.54:286][ 71]LogInit: FAudioDevice initialized.
+[2018.03.26-23.15.54:319][ 71]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.15.54:321][ 71]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TownBoard.TownBoard up for play (max tick rate 0) at 2018.03.26-19.15.54
+[2018.03.26-23.15.54:321][ 71]LogWorld: Bringing up level for play took: 0.002040
+[2018.03.26-23.15.54:323][ 71]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TownBoard -0.717
+[2018.03.26-23.15.54:323][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TownBoard.TownBoard:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard' with GeneratedClass '/Game/Maps/TownBoard.TownBoard_C' with ClassGeneratedBy '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard'
+[2018.03.26-23.15.56:187][290]LogNet: Browse: /Game/Maps/Level1
+[2018.03.26-23.15.56:187][290]LogLoad: LoadMap: /Game/Maps/Level1
+[2018.03.26-23.15.56:588][290]LogAIModule: Creating AISystem for world Level1
+[2018.03.26-23.15.56:588][290]LogLoad: Game class is 'FPSGameMode_C'
+[2018.03.26-23.15.56:604][290]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.26-19.15.56
+[2018.03.26-23.15.56:606][290]LogWorld: Bringing up level for play took: 0.017271
+[2018.03.26-23.15.56:608][290]LogLoad: Took 0.419933 seconds to LoadMap(/Game/Maps/Level1)
+[2018.03.26-23.15.58:787][534]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TownBoard.TownBoard:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard' with GeneratedClass '/Game/Maps/TownBoard.TownBoard_C' with ClassGeneratedBy '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard'
+[2018.03.26-23.15.58:825][534]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TownBoard.TownBoard:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard' with GeneratedClass '/Game/Maps/TownBoard.TownBoard_C' with ClassGeneratedBy '/Game/Maps/TownBoard.TownBoard:PersistentLevel.TownBoard'
+[2018.03.26-23.16.18:454][847]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.26-23.16.18:772][848]Cmd: QUIT_EDITOR
+[2018.03.26-23.16.19:026][848]LogExit: Preparing to exit.
+[2018.03.26-23.16.19:410][848]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' was aborted.
+[2018.03.26-23.16.19:440][848]LogExit: Editor shut down
+[2018.03.26-23.16.19:443][848]LogExit: Transaction tracking system shut down
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../../../Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/' was aborted.
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.26-23.16.19:638][848]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.26-23.16.19:796][848]LogExit: Object subsystem successfully closed.
+[2018.03.26-23.16.19:817][848]LogD3D11RHI: Shutdown
+[2018.03.26-23.16.19:817][848]LogD3D11RHI: CleanupD3DDevice
+[2018.03.26-23.16.19:819][848]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.26-23.16.19:826][848]LogModuleManager: Shutting down and abandoning module SequencerWidgets (556)
+[2018.03.26-23.16.19:826][848]LogModuleManager: Shutting down and abandoning module BlueprintGraph (554)
+[2018.03.26-23.16.19:826][848]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.03.26-23.16.19:826][848]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.03.26-23.16.19:826][848]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.03.26-23.16.19:826][848]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.03.26-23.16.19:826][848]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.03.26-23.16.19:827][848]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Collections/' was aborted.
+[2018.03.26-23.16.19:827][848]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Content/Developers/David/Collections/' was aborted.
+[2018.03.26-23.16.19:827][848]LogDirectoryWatcher: A directory notification for 'D:/Unreal/Projects/Github/Monster-Bounty-Hunter/MonsterBountyHunter/Saved/Collections/' was aborted.
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.26-23.16.19:827][848]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.26-23.16.19:828][848]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.26-23.16.20:216][848]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.26-23.16.20:217][848]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.26-23.16.20:271][848]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.26-23.16.20:271][848]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.26-23.16.20:271][848]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.26-23.16.20:271][848]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.26-23.16.20:271][848]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.26-23.16.20:271][848]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.26-23.16.20:272][848]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.26-23.16.20:272][848]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.26-23.16.20:272][848]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.26-23.16.20:272][848]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.26-23.16.20:280][848]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.26-23.16.20:281][848]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.26-23.16.20:281][848]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.26-23.16.20:282][848]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.26-23.16.20:287][848]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.26-23.16.20:288][848]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.26-23.16.20:289][848]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.26-23.16.20:390][848]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.26-23.16.20:491][848]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.26-23.16.20:491][848]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.26-23.16.20:491][848]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.26-23.16.20:491][848]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.26-23.16.20:491][848]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.26-23.16.20:491][848]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.26-23.16.20:492][848]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.26-23.16.20:492][848]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.26-23.16.20:492][848]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.26-23.16.20:492][848]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.26-23.16.20:494][848]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.26-23.16.20:494][848]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.26-23.16.20:494][848]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.26-23.16.20:494][848]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.26-23.16.20:494][848]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.26-23.16.20:494][848]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.26-23.16.20:500][848]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.26-23.16.20:502][848]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.26-23.16.20:503][848]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.26-23.16.20:503][848]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.26-23.16.20:503][848]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.26-23.16.20:503][848]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.26-23.16.20:503][848]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.26-23.16.20:503][848]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.26-23.16.20:507][848]LogDerivedDataCache: Shutdown
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.26-23.16.20:507][848]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.26-23.16.20:508][848]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.26-23.16.20:508][848]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.26-23.16.20:508][848]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0A044CD2-472C-FEBF-E0A0-D992365DA525%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=728498da40a61f6da88a5fb80cb0dbd7%7C666efe921cf14adabda00301628d6100%7C1b2310b0-6b08-43a8-81e3-eddcf1ff81c2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.26-23.16.20:536][848]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.26-23.16.20:537][848]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.26-23.16.20:537][848]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.26-23.16.20:537][848]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.26-23.16.20:537][848]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.26-23.16.20:538][848]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.26-23.16.20:538][848]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.26-23.16.20:538][848]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.26-23.16.20:539][848]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.26-23.16.20:542][848]LogExit: Exiting.
+[2018.03.26-23.16.20:563][848]Log file closed, 03/26/18 19:16:20
